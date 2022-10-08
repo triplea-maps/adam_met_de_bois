@@ -1,0 +1,3202 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Adam met de Bois" version="5.1.2"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <triplea minimumVersion="1.5.2"/>
+  <diceSides value="6"/>
+  <map>
+    <!-- Territory Definitions -->
+<territory name="1" water="true"/>
+<territory name="2" water="true"/>
+<territory name="3" water="true"/>
+<territory name="4" water="true"/>
+<territory name="5" water="true"/>
+<territory name="6" water="true"/>
+<territory name="7" water="true"/>
+<territory name="8" water="true"/>
+<territory name="9" water="true"/>
+<territory name="10" water="true"/>
+<territory name="11" water="true"/>
+<territory name="12" water="true"/>
+<territory name="13" water="true"/>
+<territory name="14" water="true"/>
+<territory name="15" water="true"/>
+<territory name="16" water="true"/>
+<territory name="17" water="true"/>
+<territory name="18" water="true"/>
+<territory name="19" water="true"/>
+<territory name="20" water="true"/>
+<territory name="21" water="true"/>
+<territory name="22" water="true"/>
+<territory name="23" water="true"/>
+<territory name="24" water="true"/>
+<territory name="25" water="true"/>
+<territory name="26" water="true"/>
+<territory name="27" water="true"/>
+<territory name="28" water="true"/>
+<territory name="29" water="true"/>
+<territory name="Aalsmeer centrum"/>
+<territory name="Aalsmeer west"/>
+<territory name="Abcoude"/>
+<territory name="Abcoudermeer" water="true"/>
+<territory name="Adam-Rijn K." water="true"/>
+<territory name="Adam-Rijn K. 2" water="true"/>
+<territory name="Adam-Rijn K. 3" water="true"/>
+<territory name="Adam-Rijn K. 4" water="true"/>
+<territory name="Adam-Rijn K. 5" water="true"/>
+<territory name="Afrikahaven"/>
+<territory name="Almere"/>
+<territory name="Amstel 1" water="true"/>
+<territory name="Amstel 2" water="true"/>
+<territory name="Amstel 3" water="true"/>
+<territory name="Amstel 4" water="true"/>
+<territory name="Amstel 5" water="true"/>
+<territory name="Amstel 6" water="true"/>
+<territory name="Amstel 7" water="true"/>
+<territory name="Amstelpark"/>
+<territory name="Amstelveen Oude Dorp"/>
+<territory name="Amstelveen Stadshart"/>
+<territory name="Amsterdamse Bos zuid"/>
+<territory name="Amsterdamse bos noord"/>
+<territory name="ArenA Park"/>
+<territory name="Baan 04"/>
+<territory name="Baan 27"/>
+<territory name="Baan 36 C"/>
+<territory name="Baan 36 en 06"/>
+<territory name="Badhoevedorp"/>
+<territory name="Badhoever Wei"/>
+<territory name="Bedrijventerrein Sloterdijk"/>
+<territory name="Bedrijventerrein de Omval"/>
+<territory name="Bellamybuurt"/>
+<territory name="Betondorp-Middenmeer"/>
+<territory name="Beukenhorst"/>
+<territory name="Bijlmer centrum"/>
+<territory name="Bijlmermeer"/>
+<territory name="Bloemenbuurt"/>
+<territory name="Boeslingheliede"/>
+<territory name="Bovendiep" water="true"/>
+<territory name="Bovenkerk"/>
+<territory name="Bovenste Blik" water="true"/>
+<territory name="Broek in Waterland"/>
+<territory name="Buiksloot"/>
+<territory name="Buikslotermeer"/>
+<territory name="Buitenveldert"/>
+<territory name="Bullewijk"/>
+<territory name="Centraal Station"/>
+<territory name="Dapper-Indische buurt"/>
+<territory name="De Horn"/>
+<territory name="Diemen"/>
+<territory name="Diemen noord"/>
+<territory name="Diemen zuid"/>
+<territory name="Diemerpark"/>
+<territory name="Duivendrecht"/>
+<territory name="Durgerdam"/>
+<territory name="Elzenhagen"/>
+<territory name="Flevoland"/>
+<territory name="Fredrik Hendrikbuurt"/>
+<territory name="Gaasperpark"/>
+<territory name="Gaasperplas" water="true"/>
+<territory name="Geiner Wei"/>
+<territory name="Gooimeer" water="true"/>
+<territory name="Gouwzee" water="true"/>
+<territory name="Grachten N"/>
+<territory name="Haarlem Zuid"/>
+<territory name="Haarlem centrum"/>
+<territory name="Haarlem noord"/>
+<territory name="Hakkelaarsbrug"/>
+<territory name="Han plas" water="true"/>
+<territory name="Haven Noord"/>
+<territory name="Haven noord noord"/>
+<territory name="Havenbuurt"/>
+<territory name="Havenwater 1" water="true"/>
+<territory name="Havenwater 2" water="true"/>
+<territory name="Helmersbuurt"/>
+<territory name="Holendrecht"/>
+<territory name="Holysloot"/>
+<territory name="Holysloter Die" water="true"/>
+<territory name="Hoofddorp"/>
+<territory name="Ijburg"/>
+<territory name="Ijburgbaai midden" water="true"/>
+<territory name="Ijburgbaai oost" water="true"/>
+<territory name="Ijburgbaai west" water="true"/>
+<territory name="Java-Oostelijk Havengebied"/>
+<territory name="Jeugdland"/>
+<territory name="Jordaan"/>
+<territory name="Kabel"/>
+<territory name="Keizer Karelpark"/>
+<territory name="Kerk AE" water="true"/>
+<territory name="Kinselmeer" water="true"/>
+<territory name="Kleine Poel" water="true"/>
+<territory name="Kleine meer" water="true"/>
+<territory name="Kostverloren-Bankras"/>
+<territory name="Landsmeer"/>
+<territory name="Landsmeerder Wei"/>
+<territory name="Leek"/>
+<territory name="Lustoord"/>
+<territory name="Lutkemeer"/>
+<territory name="Marken"/>
+<territory name="Meerwijkplas" water="true"/>
+<territory name="Middelpolder"/>
+<territory name="Middenhoven"/>
+<territory name="Mooie Nel" water="true"/>
+<territory name="Muiden"/>
+<territory name="Muiderberg"/>
+<territory name="Museumkwartier"/>
+<territory name="Naarden"/>
+<territory name="Naarder Wei"/>
+<territory name="Naardermeer" water="true"/>
+<territory name="Natuurreservaat Naardermeer"/>
+<territory name="Nes aan de Amstel"/>
+<territory name="Nieuwe Zijde"/>
+<territory name="Nieuwendammerham"/>
+<territory name="Nigtevecht"/>
+<territory name="Noorder IJplas" water="true"/>
+<territory name="Oosteinde"/>
+<territory name="Oostelijke Eilanden"/>
+<territory name="Oosterdok" water="true"/>
+<territory name="Oosterparkbuurt"/>
+<territory name="Oostzaan Zuidende"/>
+<territory name="Oostzaner Werf"/>
+<territory name="Oranjewijk"/>
+<territory name="Osdorp"/>
+<territory name="Oud Zuid"/>
+<territory name="Oudekerkerplas" water="true"/>
+<territory name="Ouderkerk"/>
+<territory name="Over Diemen"/>
+<territory name="Overhoeks"/>
+<territory name="Overtoomse Veld"/>
+<territory name="Papaverweg e.o."/>
+<territory name="Petroleumhavens"/>
+<territory name="Plantage"/>
+<territory name="Polderbaan"/>
+<territory name="Ransdorper Die" water="true"/>
+<territory name="Rivierenbuurt"/>
+<territory name="Ronde Hoep oost"/>
+<territory name="Ronde Hoep west"/>
+<territory name="Schaakwei"/>
+<territory name="Scheepsbuurt"/>
+<territory name="Schellingwoude"/>
+<territory name="Schiphol Terminal"/>
+<territory name="Schiphol zuid"/>
+<territory name="Sloten"/>
+<territory name="Slotermeer"/>
+<territory name="Sloterplas" water="true"/>
+<territory name="Spaarndammerbuurt"/>
+<territory name="Spaarnwoude"/>
+<territory name="Spieringhorn"/>
+<territory name="Staatsliedenbuurt"/>
+<territory name="Stokkelaarsbrug"/>
+<territory name="Tellegenbuurt"/>
+<territory name="Tuindorp Nieuwendam"/>
+<territory name="Tuindorp Oostzaan"/>
+<territory name="Uitdam"/>
+<territory name="Uithoorn"/>
+<territory name="Vechtplas" water="true"/>
+<territory name="Vliegenbos"/>
+<territory name="Vijfhuizen"/>
+<territory name="Vogelbuurt"/>
+<territory name="Vondelpark"/>
+<territory name="Vrijschot"/>
+<territory name="Watergraafsmeer"/>
+<territory name="Waterland"/>
+<territory name="Waterlooplein"/>
+<territory name="Weesp"/>
+<territory name="Weesperbuurt"/>
+<territory name="Westhavens Zuid"/>
+<territory name="Westwijk"/>
+<territory name="Zeeburgereiland"/>
+<territory name="Zuid"/>
+<territory name="Zuidas"/>
+<territory name="Zuiderwolde"/>
+<territory name="Zunderdorp"/>
+<territory name="Zwanenburg"/>
+<territory name="Zwanenburger Wei"/>
+<territory name="de Baarsjes"/>
+<territory name="de Bongerd"/>
+<territory name="de Burgwallen"/>
+<territory name="de Grachtengordel"/>
+<territory name="de Hoge Dijk"/>
+<territory name="de Liede"/>
+<territory name="de Nieuwe Meer" water="true"/>
+<territory name="de Pijp"/>
+<territory name="de Poel" water="true"/>
+<territory name="de Sniep"/>
+<territory name="de Wallen"/>
+<territory name="het Schouw"/>
+
+<!-- Territory Connections -->
+<connection t1="1" t2="2"/>
+<connection t1="1" t2="4"/>
+<connection t1="1" t2="Almere"/>
+<connection t1="1" t2="Muiderberg"/>
+<connection t1="1" t2="Naarder Wei"/>
+<connection t1="2" t2="3"/>
+<connection t1="2" t2="4"/>
+<connection t1="2" t2="Hakkelaarsbrug"/>
+<connection t1="2" t2="Muiderberg"/>
+<connection t1="3" t2="4"/>
+<connection t1="3" t2="5"/>
+<connection t1="3" t2="6"/>
+<connection t1="3" t2="7"/>
+<connection t1="3" t2="Hakkelaarsbrug"/>
+<connection t1="4" t2="5"/>
+<connection t1="4" t2="Almere"/>
+<connection t1="4" t2="Flevoland"/>
+<connection t1="5" t2="6"/>
+<connection t1="5" t2="10"/>
+<connection t1="5" t2="12"/>
+<connection t1="5" t2="13"/>
+<connection t1="5" t2="Flevoland"/>
+<connection t1="6" t2="7"/>
+<connection t1="6" t2="8"/>
+<connection t1="6" t2="10"/>
+<connection t1="7" t2="8"/>
+<connection t1="7" t2="Hakkelaarsbrug"/>
+<connection t1="7" t2="Muiden"/>
+<connection t1="7" t2="Over Diemen"/>
+<connection t1="8" t2="9"/>
+<connection t1="8" t2="10"/>
+<connection t1="8" t2="Ijburg"/>
+<connection t1="8" t2="Over Diemen"/>
+<connection t1="9" t2="10"/>
+<connection t1="9" t2="11"/>
+<connection t1="9" t2="22"/>
+<connection t1="9" t2="Durgerdam"/>
+<connection t1="9" t2="Ijburg"/>
+<connection t1="10" t2="11"/>
+<connection t1="10" t2="12"/>
+<connection t1="11" t2="12"/>
+<connection t1="11" t2="14"/>
+<connection t1="11" t2="Durgerdam"/>
+<connection t1="12" t2="13"/>
+<connection t1="12" t2="14"/>
+<connection t1="12" t2="15"/>
+<connection t1="12" t2="16"/>
+<connection t1="12" t2="17"/>
+<connection t1="13" t2="17"/>
+<connection t1="13" t2="Flevoland"/>
+<connection t1="14" t2="15"/>
+<connection t1="14" t2="Durgerdam"/>
+<connection t1="14" t2="Holysloot"/>
+<connection t1="15" t2="16"/>
+<connection t1="15" t2="Holysloot"/>
+<connection t1="16" t2="17"/>
+<connection t1="16" t2="18"/>
+<connection t1="16" t2="19"/>
+<connection t1="16" t2="Holysloot"/>
+<connection t1="16" t2="Uitdam"/>
+<connection t1="17" t2="19"/>
+<connection t1="17" t2="20"/>
+<connection t1="18" t2="19"/>
+<connection t1="18" t2="21"/>
+<connection t1="18" t2="Marken"/>
+<connection t1="18" t2="Uitdam"/>
+<connection t1="19" t2="20"/>
+<connection t1="19" t2="21"/>
+<connection t1="20" t2="21"/>
+<connection t1="21" t2="Marken"/>
+<connection t1="22" t2="23"/>
+<connection t1="22" t2="Durgerdam"/>
+<connection t1="22" t2="Ijburg"/>
+<connection t1="22" t2="Schellingwoude"/>
+<connection t1="22" t2="Zeeburgereiland"/>
+<connection t1="23" t2="24"/>
+<connection t1="23" t2="Centraal Station"/>
+<connection t1="23" t2="Diemerpark"/>
+<connection t1="23" t2="Java-Oostelijk Havengebied"/>
+<connection t1="23" t2="Nieuwendammerham"/>
+<connection t1="23" t2="Schellingwoude"/>
+<connection t1="23" t2="Vliegenbos"/>
+<connection t1="23" t2="Vogelbuurt"/>
+<connection t1="23" t2="Zeeburgereiland"/>
+<connection t1="24" t2="25"/>
+<connection t1="24" t2="Centraal Station"/>
+<connection t1="24" t2="Overhoeks"/>
+<connection t1="24" t2="Spaarndammerbuurt"/>
+<connection t1="24" t2="Vogelbuurt"/>
+<connection t1="25" t2="26"/>
+<connection t1="25" t2="27"/>
+<connection t1="25" t2="Haven Noord"/>
+<connection t1="25" t2="Overhoeks"/>
+<connection t1="25" t2="Papaverweg e.o."/>
+<connection t1="25" t2="Petroleumhavens"/>
+<connection t1="25" t2="Spaarndammerbuurt"/>
+<connection t1="25" t2="de Bongerd"/>
+<connection t1="26" t2="Petroleumhavens"/>
+<connection t1="27" t2="Haven Noord"/>
+<connection t1="27" t2="Haven noord noord"/>
+<connection t1="27" t2="Havenbuurt"/>
+<connection t1="27" t2="Petroleumhavens"/>
+<connection t1="28" t2="29"/>
+<connection t1="28" t2="Aalsmeer west"/>
+<connection t1="28" t2="Uithoorn"/>
+<connection t1="29" t2="Aalsmeer centrum"/>
+<connection t1="29" t2="Aalsmeer west"/>
+<connection t1="29" t2="Uithoorn"/>
+<connection t1="Aalsmeer centrum" t2="Aalsmeer west"/>
+<connection t1="Aalsmeer centrum" t2="Kleine Poel"/>
+<connection t1="Aalsmeer centrum" t2="Oosteinde"/>
+<connection t1="Aalsmeer centrum" t2="Oranjewijk"/>
+<connection t1="Aalsmeer centrum" t2="Schiphol zuid"/>
+<connection t1="Aalsmeer centrum" t2="Uithoorn"/>
+<connection t1="Aalsmeer west" t2="Kabel"/>
+<connection t1="Aalsmeer west" t2="Kleine Poel"/>
+<connection t1="Aalsmeer west" t2="Schiphol zuid"/>
+<connection t1="Abcoude" t2="Abcoudermeer"/>
+<connection t1="Abcoude" t2="Geiner Wei"/>
+<connection t1="Abcoude" t2="Stokkelaarsbrug"/>
+<connection t1="Abcoude" t2="de Hoge Dijk"/>
+<connection t1="Abcoudermeer" t2="Stokkelaarsbrug"/>
+<connection t1="Abcoudermeer" t2="de Hoge Dijk"/>
+<connection t1="Adam-Rijn K." t2="Betondorp-Middenmeer"/>
+<connection t1="Adam-Rijn K." t2="Dapper-Indische buurt"/>
+<connection t1="Adam-Rijn K." t2="Diemerpark"/>
+<connection t1="Adam-Rijn K. 2" t2="Betondorp-Middenmeer"/>
+<connection t1="Adam-Rijn K. 2" t2="Diemen noord"/>
+<connection t1="Adam-Rijn K. 2" t2="Diemerpark"/>
+<connection t1="Adam-Rijn K. 2" t2="Over Diemen"/>
+<connection t1="Adam-Rijn K. 2" t2="de Sniep"/>
+<connection t1="Adam-Rijn K. 3" t2="Over Diemen"/>
+<connection t1="Adam-Rijn K. 3" t2="de Sniep"/>
+<connection t1="Adam-Rijn K. 4" t2="Gaasperpark"/>
+<connection t1="Adam-Rijn K. 4" t2="Over Diemen"/>
+<connection t1="Adam-Rijn K. 4" t2="Weesp"/>
+<connection t1="Adam-Rijn K. 4" t2="de Sniep"/>
+<connection t1="Adam-Rijn K. 5" t2="De Horn"/>
+<connection t1="Adam-Rijn K. 5" t2="Geiner Wei"/>
+<connection t1="Adam-Rijn K. 5" t2="Nigtevecht"/>
+<connection t1="Adam-Rijn K. 5" t2="Weesp"/>
+<connection t1="Afrikahaven" t2="Bedrijventerrein Sloterdijk"/>
+<connection t1="Afrikahaven" t2="Havenwater 1"/>
+<connection t1="Afrikahaven" t2="Spaarnwoude"/>
+<connection t1="Afrikahaven" t2="Spieringhorn"/>
+<connection t1="Afrikahaven" t2="Zwanenburg"/>
+<connection t1="Almere" t2="Flevoland"/>
+<connection t1="Almere" t2="Gooimeer"/>
+<connection t1="Almere" t2="Naarder Wei"/>
+<connection t1="Amstel 1" t2="Waterlooplein"/>
+<connection t1="Amstel 1" t2="Weesperbuurt"/>
+<connection t1="Amstel 1" t2="de Grachtengordel"/>
+<connection t1="Amstel 2" t2="Oosterparkbuurt"/>
+<connection t1="Amstel 2" t2="Weesperbuurt"/>
+<connection t1="Amstel 2" t2="de Grachtengordel"/>
+<connection t1="Amstel 2" t2="de Pijp"/>
+<connection t1="Amstel 3" t2="Oosterparkbuurt"/>
+<connection t1="Amstel 3" t2="Rivierenbuurt"/>
+<connection t1="Amstel 3" t2="de Pijp"/>
+<connection t1="Amstel 4" t2="Amstelpark"/>
+<connection t1="Amstel 4" t2="Bedrijventerrein de Omval"/>
+<connection t1="Amstel 4" t2="Oosterparkbuurt"/>
+<connection t1="Amstel 4" t2="Rivierenbuurt"/>
+<connection t1="Amstel 5" t2="Amstelpark"/>
+<connection t1="Amstel 5" t2="Bedrijventerrein de Omval"/>
+<connection t1="Amstel 5" t2="Lustoord"/>
+<connection t1="Amstel 6" t2="Amstelpark"/>
+<connection t1="Amstel 6" t2="Lustoord"/>
+<connection t1="Amstel 6" t2="Middelpolder"/>
+<connection t1="Amstel 6" t2="Ouderkerk"/>
+<connection t1="Amstel 7" t2="Middelpolder"/>
+<connection t1="Amstel 7" t2="Nes aan de Amstel"/>
+<connection t1="Amstel 7" t2="Ouderkerk"/>
+<connection t1="Amstel 7" t2="Ronde Hoep oost"/>
+<connection t1="Amstel 7" t2="Ronde Hoep west"/>
+<connection t1="Amstelpark" t2="Buitenveldert"/>
+<connection t1="Amstelpark" t2="Lustoord"/>
+<connection t1="Amstelpark" t2="Middelpolder"/>
+<connection t1="Amstelpark" t2="Rivierenbuurt"/>
+<connection t1="Amstelpark" t2="Zuidas"/>
+<connection t1="Amstelveen Oude Dorp" t2="Amstelveen Stadshart"/>
+<connection t1="Amstelveen Oude Dorp" t2="Amsterdamse Bos zuid"/>
+<connection t1="Amstelveen Oude Dorp" t2="Amsterdamse bos noord"/>
+<connection t1="Amstelveen Oude Dorp" t2="Keizer Karelpark"/>
+<connection t1="Amstelveen Oude Dorp" t2="de Poel"/>
+<connection t1="Amstelveen Stadshart" t2="Amsterdamse bos noord"/>
+<connection t1="Amstelveen Stadshart" t2="Buitenveldert"/>
+<connection t1="Amstelveen Stadshart" t2="Keizer Karelpark"/>
+<connection t1="Amstelveen Stadshart" t2="Kostverloren-Bankras"/>
+<connection t1="Amsterdamse Bos zuid" t2="Amsterdamse bos noord"/>
+<connection t1="Amsterdamse Bos zuid" t2="Bovenkerk"/>
+<connection t1="Amsterdamse Bos zuid" t2="Oosteinde"/>
+<connection t1="Amsterdamse Bos zuid" t2="Schiphol zuid"/>
+<connection t1="Amsterdamse Bos zuid" t2="de Poel"/>
+<connection t1="Amsterdamse bos noord" t2="Badhoever Wei"/>
+<connection t1="Amsterdamse bos noord" t2="Buitenveldert"/>
+<connection t1="Amsterdamse bos noord" t2="Zuidas"/>
+<connection t1="Amsterdamse bos noord" t2="de Nieuwe Meer"/>
+<connection t1="ArenA Park" t2="Bijlmer centrum"/>
+<connection t1="ArenA Park" t2="Bullewijk"/>
+<connection t1="ArenA Park" t2="Lustoord"/>
+<connection t1="Baan 04" t2="Baan 27"/>
+<connection t1="Baan 04" t2="Baan 36 en 06"/>
+<connection t1="Baan 04" t2="Badhoever Wei"/>
+<connection t1="Baan 04" t2="Schiphol zuid"/>
+<connection t1="Baan 27" t2="Baan 36 C"/>
+<connection t1="Baan 27" t2="Baan 36 en 06"/>
+<connection t1="Baan 27" t2="Badhoever Wei"/>
+<connection t1="Baan 27" t2="Schiphol Terminal"/>
+<connection t1="Baan 36 C" t2="Baan 36 en 06"/>
+<connection t1="Baan 36 C" t2="Badhoever Wei"/>
+<connection t1="Baan 36 C" t2="Beukenhorst"/>
+<connection t1="Baan 36 C" t2="Boeslingheliede"/>
+<connection t1="Baan 36 C" t2="Polderbaan"/>
+<connection t1="Baan 36 C" t2="Schiphol Terminal"/>
+<connection t1="Baan 36 C" t2="Vrijschot"/>
+<connection t1="Baan 36 en 06" t2="Beukenhorst"/>
+<connection t1="Baan 36 en 06" t2="Schiphol Terminal"/>
+<connection t1="Baan 36 en 06" t2="Schiphol zuid"/>
+<connection t1="Badhoevedorp" t2="Badhoever Wei"/>
+<connection t1="Badhoevedorp" t2="Boeslingheliede"/>
+<connection t1="Badhoevedorp" t2="Lutkemeer"/>
+<connection t1="Badhoevedorp" t2="Osdorp"/>
+<connection t1="Badhoevedorp" t2="Sloten"/>
+<connection t1="Badhoever Wei" t2="Boeslingheliede"/>
+<connection t1="Badhoever Wei" t2="Sloten"/>
+<connection t1="Badhoever Wei" t2="de Nieuwe Meer"/>
+<connection t1="Bedrijventerrein Sloterdijk" t2="Havenwater 1"/>
+<connection t1="Bedrijventerrein Sloterdijk" t2="Havenwater 2"/>
+<connection t1="Bedrijventerrein Sloterdijk" t2="Spieringhorn"/>
+<connection t1="Bedrijventerrein Sloterdijk" t2="Westhavens Zuid"/>
+<connection t1="Bedrijventerrein de Omval" t2="Amstelpark"/>
+<connection t1="Bedrijventerrein de Omval" t2="Betondorp-Middenmeer"/>
+<connection t1="Bedrijventerrein de Omval" t2="Duivendrecht"/>
+<connection t1="Bedrijventerrein de Omval" t2="Lustoord"/>
+<connection t1="Bedrijventerrein de Omval" t2="Oosterparkbuurt"/>
+<connection t1="Bedrijventerrein de Omval" t2="Watergraafsmeer"/>
+<connection t1="Bellamybuurt" t2="Fredrik Hendrikbuurt"/>
+<connection t1="Bellamybuurt" t2="Helmersbuurt"/>
+<connection t1="Bellamybuurt" t2="de Baarsjes"/>
+<connection t1="Betondorp-Middenmeer" t2="Dapper-Indische buurt"/>
+<connection t1="Betondorp-Middenmeer" t2="Diemen"/>
+<connection t1="Betondorp-Middenmeer" t2="Diemen noord"/>
+<connection t1="Betondorp-Middenmeer" t2="Diemen zuid"/>
+<connection t1="Betondorp-Middenmeer" t2="Diemerpark"/>
+<connection t1="Betondorp-Middenmeer" t2="Duivendrecht"/>
+<connection t1="Betondorp-Middenmeer" t2="Watergraafsmeer"/>
+<connection t1="Beukenhorst" t2="Hoofddorp"/>
+<connection t1="Beukenhorst" t2="Kabel"/>
+<connection t1="Beukenhorst" t2="Schiphol zuid"/>
+<connection t1="Beukenhorst" t2="Vrijschot"/>
+<connection t1="Bijlmer centrum" t2="Bijlmermeer"/>
+<connection t1="Bijlmer centrum" t2="Bullewijk"/>
+<connection t1="Bijlmer centrum" t2="Diemen zuid"/>
+<connection t1="Bijlmer centrum" t2="Duivendrecht"/>
+<connection t1="Bijlmer centrum" t2="Gaasperpark"/>
+<connection t1="Bijlmer centrum" t2="Holendrecht"/>
+<connection t1="Bijlmer centrum" t2="Lustoord"/>
+<connection t1="Bijlmermeer" t2="Diemen zuid"/>
+<connection t1="Bijlmermeer" t2="Gaasperpark"/>
+<connection t1="Bijlmermeer" t2="de Sniep"/>
+<connection t1="Bloemenbuurt" t2="Buiksloot"/>
+<connection t1="Bloemenbuurt" t2="Elzenhagen"/>
+<connection t1="Bloemenbuurt" t2="Nieuwendammerham"/>
+<connection t1="Bloemenbuurt" t2="Overhoeks"/>
+<connection t1="Bloemenbuurt" t2="Papaverweg e.o."/>
+<connection t1="Bloemenbuurt" t2="Vogelbuurt"/>
+<connection t1="Boeslingheliede" t2="Lutkemeer"/>
+<connection t1="Boeslingheliede" t2="Polderbaan"/>
+<connection t1="Boeslingheliede" t2="Zwanenburger Wei"/>
+<connection t1="Boeslingheliede" t2="de Liede"/>
+<connection t1="Bovendiep" t2="Diemerpark"/>
+<connection t1="Bovendiep" t2="Zeeburgereiland"/>
+<connection t1="Bovenkerk" t2="Keizer Karelpark"/>
+<connection t1="Bovenkerk" t2="Middenhoven"/>
+<connection t1="Bovenkerk" t2="Westwijk"/>
+<connection t1="Bovenkerk" t2="de Poel"/>
+<connection t1="Bovenste Blik" t2="Naarder Wei"/>
+<connection t1="Bovenste Blik" t2="Natuurreservaat Naardermeer"/>
+<connection t1="Broek in Waterland" t2="Leek"/>
+<connection t1="Broek in Waterland" t2="Schaakwei"/>
+<connection t1="Buiksloot" t2="Elzenhagen"/>
+<connection t1="Buiksloot" t2="Oostzaner Werf"/>
+<connection t1="Buiksloot" t2="Papaverweg e.o."/>
+<connection t1="Buiksloot" t2="Scheepsbuurt"/>
+<connection t1="Buiksloot" t2="de Bongerd"/>
+<connection t1="Buikslotermeer" t2="Elzenhagen"/>
+<connection t1="Buikslotermeer" t2="Jeugdland"/>
+<connection t1="Buikslotermeer" t2="Schellingwoude"/>
+<connection t1="Buikslotermeer" t2="Tuindorp Nieuwendam"/>
+<connection t1="Buikslotermeer" t2="Waterland"/>
+<connection t1="Buikslotermeer" t2="Zunderdorp"/>
+<connection t1="Buitenveldert" t2="Kostverloren-Bankras"/>
+<connection t1="Buitenveldert" t2="Middelpolder"/>
+<connection t1="Buitenveldert" t2="Zuidas"/>
+<connection t1="Bullewijk" t2="Holendrecht"/>
+<connection t1="Bullewijk" t2="Lustoord"/>
+<connection t1="Bullewijk" t2="de Hoge Dijk"/>
+<connection t1="Centraal Station" t2="Grachten N"/>
+<connection t1="Centraal Station" t2="Java-Oostelijk Havengebied"/>
+<connection t1="Centraal Station" t2="Jordaan"/>
+<connection t1="Centraal Station" t2="Nieuwe Zijde"/>
+<connection t1="Centraal Station" t2="Oosterdok"/>
+<connection t1="Centraal Station" t2="Spaarndammerbuurt"/>
+<connection t1="Centraal Station" t2="de Wallen"/>
+<connection t1="Dapper-Indische buurt" t2="23"/>
+<connection t1="Dapper-Indische buurt" t2="Java-Oostelijk Havengebied"/>
+<connection t1="Dapper-Indische buurt" t2="Oosterparkbuurt"/>
+<connection t1="Dapper-Indische buurt" t2="Plantage"/>
+<connection t1="Dapper-Indische buurt" t2="Watergraafsmeer"/>
+<connection t1="Dapper-Indische buurt" t2="Weesperbuurt"/>
+<connection t1="De Horn" t2="Natuurreservaat Naardermeer"/>
+<connection t1="De Horn" t2="Nigtevecht"/>
+<connection t1="De Horn" t2="Vechtplas"/>
+<connection t1="De Horn" t2="Weesp"/>
+<connection t1="Diemen" t2="Diemen noord"/>
+<connection t1="Diemen" t2="Diemen zuid"/>
+<connection t1="Diemen" t2="de Sniep"/>
+<connection t1="Diemen noord" t2="de Sniep"/>
+<connection t1="Diemen zuid" t2="Duivendrecht"/>
+<connection t1="Diemen zuid" t2="de Sniep"/>
+<connection t1="Diemerpark" t2="Ijburg"/>
+<connection t1="Diemerpark" t2="Ijburgbaai midden"/>
+<connection t1="Diemerpark" t2="Ijburgbaai oost"/>
+<connection t1="Diemerpark" t2="Ijburgbaai west"/>
+<connection t1="Diemerpark" t2="Over Diemen"/>
+<connection t1="Diemerpark" t2="Zeeburgereiland"/>
+<connection t1="Duivendrecht" t2="Lustoord"/>
+<connection t1="Durgerdam" t2="Holysloot"/>
+<connection t1="Durgerdam" t2="Kinselmeer"/>
+<connection t1="Durgerdam" t2="Schellingwoude"/>
+<connection t1="Durgerdam" t2="Waterland"/>
+<connection t1="Elzenhagen" t2="Jeugdland"/>
+<connection t1="Elzenhagen" t2="Scheepsbuurt"/>
+<connection t1="Fredrik Hendrikbuurt" t2="Helmersbuurt"/>
+<connection t1="Fredrik Hendrikbuurt" t2="Jordaan"/>
+<connection t1="Fredrik Hendrikbuurt" t2="Staatsliedenbuurt"/>
+<connection t1="Fredrik Hendrikbuurt" t2="de Baarsjes"/>
+<connection t1="Gaasperpark" t2="Gaasperplas"/>
+<connection t1="Gaasperpark" t2="Geiner Wei"/>
+<connection t1="Gaasperpark" t2="Holendrecht"/>
+<connection t1="Gaasperpark" t2="Weesp"/>
+<connection t1="Gaasperpark" t2="de Sniep"/>
+<connection t1="Gaasperplas" t2="Holendrecht"/>
+<connection t1="Geiner Wei" t2="Holendrecht"/>
+<connection t1="Geiner Wei" t2="Stokkelaarsbrug"/>
+<connection t1="Geiner Wei" t2="de Hoge Dijk"/>
+<connection t1="Gooimeer" t2="Naarder Wei"/>
+<connection t1="Gouwzee" t2="Marken"/>
+<connection t1="Gouwzee" t2="Uitdam"/>
+<connection t1="Gouwzee" t2="Zuiderwolde"/>
+<connection t1="Grachten N" t2="Jordaan"/>
+<connection t1="Grachten N" t2="Nieuwe Zijde"/>
+<connection t1="Grachten N" t2="de Grachtengordel"/>
+<connection t1="Haarlem Zuid" t2="Haarlem centrum"/>
+<connection t1="Haarlem Zuid" t2="Meerwijkplas"/>
+<connection t1="Haarlem Zuid" t2="Vijfhuizen"/>
+<connection t1="Haarlem Zuid" t2="de Liede"/>
+<connection t1="Haarlem centrum" t2="Haarlem noord"/>
+<connection t1="Haarlem centrum" t2="de Liede"/>
+<connection t1="Haarlem noord" t2="Mooie Nel"/>
+<connection t1="Haarlem noord" t2="Spaarnwoude"/>
+<connection t1="Haarlem noord" t2="de Liede"/>
+<connection t1="Hakkelaarsbrug" t2="Muiden"/>
+<connection t1="Hakkelaarsbrug" t2="Muiderberg"/>
+<connection t1="Hakkelaarsbrug" t2="Naarder Wei"/>
+<connection t1="Hakkelaarsbrug" t2="Naardermeer"/>
+<connection t1="Hakkelaarsbrug" t2="Natuurreservaat Naardermeer"/>
+<connection t1="Hakkelaarsbrug" t2="Over Diemen"/>
+<connection t1="Han plas" t2="Vijfhuizen"/>
+<connection t1="Han plas" t2="Vrijschot"/>
+<connection t1="Haven Noord" t2="Noorder IJplas"/>
+<connection t1="Haven Noord" t2="Oostzaan Zuidende"/>
+<connection t1="Haven Noord" t2="Oostzaner Werf"/>
+<connection t1="Haven Noord" t2="Tuindorp Oostzaan"/>
+<connection t1="Haven Noord" t2="de Bongerd"/>
+<connection t1="Haven Noord" t2="Haven noord noord"/>
+<connection t1="Haven noord noord" t2="Noorder IJplas"/>
+<connection t1="Havenwater 2" t2="Petroleumhavens"/>
+<connection t1="Havenwater 2" t2="Westhavens Zuid"/>
+<connection t1="Helmersbuurt" t2="Jordaan"/>
+<connection t1="Helmersbuurt" t2="Museumkwartier"/>
+<connection t1="Helmersbuurt" t2="Oud Zuid"/>
+<connection t1="Helmersbuurt" t2="Vondelpark"/>
+<connection t1="Helmersbuurt" t2="de Baarsjes"/>
+<connection t1="Holendrecht" t2="de Hoge Dijk"/>
+<connection t1="Holysloot" t2="Holysloter Die"/>
+<connection t1="Holysloot" t2="Kinselmeer"/>
+<connection t1="Holysloot" t2="Ransdorper Die"/>
+<connection t1="Holysloot" t2="Uitdam"/>
+<connection t1="Holysloot" t2="Waterland"/>
+<connection t1="Holysloter Die" t2="Schaakwei"/>
+<connection t1="Holysloter Die" t2="Uitdam"/>
+<connection t1="Holysloter Die" t2="Waterland"/>
+<connection t1="Holysloter Die" t2="Zuiderwolde"/>
+<connection t1="Hoofddorp" t2="Kabel"/>
+<connection t1="Hoofddorp" t2="Vrijschot"/>
+<connection t1="Ijburg" t2="Ijburgbaai midden"/>
+<connection t1="Ijburg" t2="Ijburgbaai oost"/>
+<connection t1="Ijburg" t2="Ijburgbaai west"/>
+<connection t1="Ijburg" t2="Over Diemen"/>
+<connection t1="Ijburg" t2="Zeeburgereiland"/>
+<connection t1="Ijburgbaai oost" t2="Over Diemen"/>
+<connection t1="Ijburgbaai west" t2="Zeeburgereiland"/>
+<connection t1="Java-Oostelijk Havengebied" t2="Oostelijke Eilanden"/>
+<connection t1="Jeugdland" t2="Scheepsbuurt"/>
+<connection t1="Jeugdland" t2="Zunderdorp"/>
+<connection t1="Jordaan" t2="Museumkwartier"/>
+<connection t1="Jordaan" t2="Spaarndammerbuurt"/>
+<connection t1="Jordaan" t2="Staatsliedenbuurt"/>
+<connection t1="Jordaan" t2="de Grachtengordel"/>
+<connection t1="Kabel" t2="Schiphol zuid"/>
+<connection t1="Keizer Karelpark" t2="Middenhoven"/>
+<connection t1="Keizer Karelpark" t2="de Poel"/>
+<connection t1="Kerk AE" t2="Leek"/>
+<connection t1="Kerk AE" t2="Zuiderwolde"/>
+<connection t1="Kinselmeer" t2="Waterland"/>
+<connection t1="Kleine meer" t2="Uitdam"/>
+<connection t1="Kleine meer" t2="Zuiderwolde"/>
+<connection t1="Kostverloren-Bankras" t2="Middelpolder"/>
+<connection t1="Kostverloren-Bankras" t2="Middenhoven"/>
+<connection t1="Landsmeer" t2="Landsmeerder Wei"/>
+<connection t1="Landsmeer" t2="Oostzaan Zuidende"/>
+<connection t1="Landsmeer" t2="Oostzaner Werf"/>
+<connection t1="Landsmeerder Wei" t2="Scheepsbuurt"/>
+<connection t1="Landsmeerder Wei" t2="Zunderdorp"/>
+<connection t1="Landsmeerder Wei" t2="het Schouw"/>
+<connection t1="Leek" t2="Schaakwei"/>
+<connection t1="Leek" t2="Zuiderwolde"/>
+<connection t1="Leek" t2="Zunderdorp"/>
+<connection t1="Leek" t2="het Schouw"/>
+<connection t1="Lustoord" t2="Ouderkerk"/>
+<connection t1="Lustoord" t2="de Hoge Dijk"/>
+<connection t1="Lutkemeer" t2="Osdorp"/>
+<connection t1="Lutkemeer" t2="Slotermeer"/>
+<connection t1="Lutkemeer" t2="Spieringhorn"/>
+<connection t1="Lutkemeer" t2="Zwanenburg"/>
+<connection t1="Lutkemeer" t2="Zwanenburger Wei"/>
+<connection t1="Meerwijkplas" t2="Vijfhuizen"/>
+<connection t1="Middelpolder" t2="Middenhoven"/>
+<connection t1="Middelpolder" t2="Nes aan de Amstel"/>
+<connection t1="Middenhoven" t2="Nes aan de Amstel"/>
+<connection t1="Middenhoven" t2="Westwijk"/>
+<connection t1="Mooie Nel" t2="Spaarnwoude"/>
+<connection t1="Muiden" t2="Over Diemen"/>
+<connection t1="Muiderberg" t2="Naarder Wei"/>
+<connection t1="Museumkwartier" t2="Oud Zuid"/>
+<connection t1="Museumkwartier" t2="Tellegenbuurt"/>
+<connection t1="Museumkwartier" t2="Vondelpark"/>
+<connection t1="Museumkwartier" t2="de Grachtengordel"/>
+<connection t1="Museumkwartier" t2="de Pijp"/>
+<connection t1="Naarden" t2="Naarder Wei"/>
+<connection t1="Naarder Wei" t2="Naardermeer"/>
+<connection t1="Naarder Wei" t2="Natuurreservaat Naardermeer"/>
+<connection t1="Naarder Wei" t2="Nigtevecht"/>
+<connection t1="Naardermeer" t2="Natuurreservaat Naardermeer"/>
+<connection t1="Natuurreservaat Naardermeer" t2="Nigtevecht"/>
+<connection t1="Natuurreservaat Naardermeer" t2="Over Diemen"/>
+<connection t1="Natuurreservaat Naardermeer" t2="Vechtplas"/>
+<connection t1="Natuurreservaat Naardermeer" t2="Weesp"/>
+<connection t1="Nes aan de Amstel" t2="Oranjewijk"/>
+<connection t1="Nes aan de Amstel" t2="Uithoorn"/>
+<connection t1="Nes aan de Amstel" t2="Westwijk"/>
+<connection t1="Nieuwe Zijde" t2="de Grachtengordel"/>
+<connection t1="Nieuwe Zijde" t2="de Wallen"/>
+<connection t1="Nieuwendammerham" t2="Vliegenbos"/>
+<connection t1="Nieuwendammerham" t2="Vogelbuurt"/>
+<connection t1="Nigtevecht" t2="Vechtplas"/>
+<connection t1="Noorder IJplas" t2="Oostzaan Zuidende"/>
+<connection t1="Oosteinde" t2="Oranjewijk"/>
+<connection t1="Oosteinde" t2="Schiphol zuid"/>
+<connection t1="Oosteinde" t2="Westwijk"/>
+<connection t1="Oostelijke Eilanden" t2="Oosterdok"/>
+<connection t1="Oostelijke Eilanden" t2="Plantage"/>
+<connection t1="Oosterdok" t2="Plantage"/>
+<connection t1="Oosterdok" t2="Waterlooplein"/>
+<connection t1="Oosterdok" t2="de Burgwallen"/>
+<connection t1="Oosterparkbuurt" t2="Watergraafsmeer"/>
+<connection t1="Oosterparkbuurt" t2="Weesperbuurt"/>
+<connection t1="Oosterparkbuurt" t2="de Pijp"/>
+<connection t1="Oosterparkbuurt" t2="Rivierenbuurt"/>
+<connection t1="Oostzaan Zuidende" t2="Oostzaner Werf"/>
+<connection t1="Oostzaner Werf" t2="Scheepsbuurt"/>
+<connection t1="Oostzaner Werf" t2="Tuindorp Oostzaan"/>
+<connection t1="Oostzaner Werf" t2="de Bongerd"/>
+<connection t1="Oranjewijk" t2="Uithoorn"/>
+<connection t1="Oranjewijk" t2="Westwijk"/>
+<connection t1="Osdorp" t2="Overtoomse Veld"/>
+<connection t1="Osdorp" t2="Sloten"/>
+<connection t1="Osdorp" t2="Slotermeer"/>
+<connection t1="Osdorp" t2="Sloterplas"/>
+<connection t1="Oud Zuid" t2="Sloten"/>
+<connection t1="Oud Zuid" t2="Tellegenbuurt"/>
+<connection t1="Oud Zuid" t2="Vondelpark"/>
+<connection t1="Oud Zuid" t2="Zuid"/>
+<connection t1="Oud Zuid" t2="de Baarsjes"/>
+<connection t1="Oudekerkerplas" t2="Ouderkerk"/>
+<connection t1="Oudekerkerplas" t2="Ronde Hoep oost"/>
+<connection t1="Oudekerkerplas" t2="Stokkelaarsbrug"/>
+<connection t1="Oudekerkerplas" t2="de Hoge Dijk"/>
+<connection t1="Ouderkerk" t2="Middelpolder"/>
+<connection t1="Ouderkerk" t2="Ronde Hoep oost"/>
+<connection t1="Ouderkerk" t2="de Hoge Dijk"/>
+<connection t1="Over Diemen" t2="Weesp"/>
+<connection t1="Over Diemen" t2="de Sniep"/>
+<connection t1="Overhoeks" t2="Vogelbuurt"/>
+<connection t1="Overtoomse Veld" t2="Sloten"/>
+<connection t1="Overtoomse Veld" t2="Slotermeer"/>
+<connection t1="Overtoomse Veld" t2="Sloterplas"/>
+<connection t1="Overtoomse Veld" t2="de Baarsjes"/>
+<connection t1="Papaverweg e.o." t2="de Bongerd"/>
+<connection t1="Petroleumhavens" t2="Slotermeer"/>
+<connection t1="Petroleumhavens" t2="Spaarndammerbuurt"/>
+<connection t1="Petroleumhavens" t2="Westhavens Zuid"/>
+<connection t1="Plantage" t2="Waterlooplein"/>
+<connection t1="Plantage" t2="Weesperbuurt"/>
+<connection t1="Polderbaan" t2="Vijfhuizen"/>
+<connection t1="Polderbaan" t2="Vrijschot"/>
+<connection t1="Polderbaan" t2="de Liede"/>
+<connection t1="Ransdorper Die" t2="Waterland"/>
+<connection t1="Rivierenbuurt" t2="Tellegenbuurt"/>
+<connection t1="Rivierenbuurt" t2="Zuid"/>
+<connection t1="Rivierenbuurt" t2="Zuidas"/>
+<connection t1="Rivierenbuurt" t2="de Pijp"/>
+<connection t1="Ronde Hoep oost" t2="Ronde Hoep west"/>
+<connection t1="Ronde Hoep oost" t2="Stokkelaarsbrug"/>
+<connection t1="Schaakwei" t2="Waterland"/>
+<connection t1="Schaakwei" t2="Zuiderwolde"/>
+<connection t1="Schaakwei" t2="Zunderdorp"/>
+<connection t1="Scheepsbuurt" t2="Zunderdorp"/>
+<connection t1="Schellingwoude" t2="Tuindorp Nieuwendam"/>
+<connection t1="Schellingwoude" t2="Vliegenbos"/>
+<connection t1="Schellingwoude" t2="Waterland"/>
+<connection t1="Schiphol zuid" t2="Badhoever Wei"/>
+<connection t1="Sloten" t2="Zuid"/>
+<connection t1="Sloten" t2="Zuidas"/>
+<connection t1="Sloten" t2="de Baarsjes"/>
+<connection t1="Sloten" t2="de Nieuwe Meer"/>
+<connection t1="Slotermeer" t2="Sloterplas"/>
+<connection t1="Slotermeer" t2="Spaarndammerbuurt"/>
+<connection t1="Slotermeer" t2="Spieringhorn"/>
+<connection t1="Slotermeer" t2="Staatsliedenbuurt"/>
+<connection t1="Slotermeer" t2="Westhavens Zuid"/>
+<connection t1="Slotermeer" t2="de Baarsjes"/>
+<connection t1="Spaarndammerbuurt" t2="Staatsliedenbuurt"/>
+<connection t1="Spaarnwoude" t2="Zwanenburg"/>
+<connection t1="Spaarnwoude" t2="Zwanenburger Wei"/>
+<connection t1="Spaarnwoude" t2="de Liede"/>
+<connection t1="Spieringhorn" t2="Westhavens Zuid"/>
+<connection t1="Spieringhorn" t2="Zwanenburg"/>
+<connection t1="Staatsliedenbuurt" t2="de Baarsjes"/>
+<connection t1="Stokkelaarsbrug" t2="de Hoge Dijk"/>
+<connection t1="Tellegenbuurt" t2="Zuid"/>
+<connection t1="Tellegenbuurt" t2="de Pijp"/>
+<connection t1="Tuindorp Nieuwendam" t2="Bloemenbuurt"/>
+<connection t1="Tuindorp Nieuwendam" t2="Nieuwendammerham"/>
+<connection t1="Tuindorp Nieuwendam" t2="Vliegenbos"/>
+<connection t1="Tuindorp Oostzaan" t2="de Bongerd"/>
+<connection t1="Uitdam" t2="Marken"/>
+<connection t1="Uitdam" t2="Zuiderwolde"/>
+<connection t1="Vijfhuizen" t2="Vrijschot"/>
+<connection t1="Vijfhuizen" t2="de Liede"/>
+<connection t1="Waterland" t2="Zunderdorp"/>
+<connection t1="Waterlooplein" t2="Weesperbuurt"/>
+<connection t1="Waterlooplein" t2="de Burgwallen"/>
+<connection t1="Waterlooplein" t2="de Grachtengordel"/>
+<connection t1="Zuid" t2="Zuidas"/>
+<connection t1="Zuidas" t2="de Nieuwe Meer"/>
+<connection t1="Zunderdorp" t2="het Schouw"/>
+<connection t1="Zwanenburg" t2="Zwanenburger Wei"/>
+<connection t1="Zwanenburger Wei" t2="de Liede"/>
+<connection t1="de Burgwallen" t2="de Grachtengordel"/>
+<connection t1="de Burgwallen" t2="de Wallen"/>
+<connection t1="de Grachtengordel" t2="de Pijp"/>
+<connection t1="de Grachtengordel" t2="Weesperbuurt"/>
+<connection t1="de Wallen" t2="de Grachtengordel"/>
+  </map>
+  <resourceList>
+    <resource name="techTokens"/>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+    <player name="Hidde" optional="false"/>
+    <player name="Jelle" optional="false"/>
+    <player name="Bram" optional="false"/>
+    <player name="Alex" optional="false"/>
+    <player name="David" optional="false"/>
+    <player name="Joelle" optional="false"/>
+    <player name="Koen" optional="false"/>
+    <!-- Alliances -->
+    <alliance player="David" alliance="David's boys"/>
+    <alliance player="Bram" alliance="Bram's boys"/>
+    <alliance player="Jelle" alliance="Jelle's boys"/>
+    <alliance player="Joelle" alliance="Joelle's boys"/>
+    <alliance player="Hidde" alliance="Hidde's boys"/>
+    <alliance player="Alex" alliance="Alex's boys"/>
+    <alliance player="Koen" alliance="Koen's boys"/>
+  </playerList>
+  <unitList>
+    <unit name="infantry"/>
+    <unit name="artillery"/>
+    <unit name="mech_infantry"/>
+    <unit name="armour"/>
+    <unit name="fighter"/>
+    <unit name="tactical_bomber"/>
+    <unit name="bomber"/>
+    <unit name="transport"/>
+    <unit name="submarine"/>
+    <unit name="destroyer"/>
+    <unit name="cruiser"/>
+    <unit name="carrier"/>
+    <unit name="battleship"/>
+    <unit name="aaGun"/>
+    <unit name="airfield"/>
+    <unit name="harbour"/>
+    <unit name="factory_minor"/>
+    <unit name="factory_upgrade"/>
+    <unit name="factory_major"/>
+  </unitList>
+  <relationshipTypes>
+    <relationshipType name="Allied"/>
+    <relationshipType name="War"/>
+    <relationshipType name="Neutrality"/>
+  </relationshipTypes>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <!--<delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>-->
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <!--<delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>-->
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="politics" javaClass="games.strategy.triplea.delegate.PoliticsDelegate" display="Politics"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="hiddeBid" delegate="bid" player="Hidde" maxRunCount="1"/>
+      <step name="hiddeBidPlace" delegate="placeBid" player="Hidde" maxRunCount="1"/>
+      <step name="jelleBid" delegate="bid" player="Jelle" maxRunCount="1"/>
+      <step name="jelleBidPlace" delegate="placeBid" player="Jelle" maxRunCount="1"/>
+      <step name="bramBid" delegate="bid" player="Bram" maxRunCount="1"/>
+      <step name="bramBidPlace" delegate="placeBid" player="Bram" maxRunCount="1"/>
+      <step name="alexBid" delegate="bid" player="Alex" maxRunCount="1"/>
+      <step name="alexBidPlace" delegate="placeBid" player="Alex" maxRunCount="1"/>
+      <step name="davidBid" delegate="bid" player="David" maxRunCount="1"/>
+      <step name="davidBidPlace" delegate="placeBid" player="David" maxRunCount="1"/>
+      <step name="joelleBid" delegate="bid" player="Joelle" maxRunCount="1"/>
+      <step name="joelleBidPlace" delegate="placeBid" player="Joelle" maxRunCount="1"/>
+      <step name="koenBid" delegate="bid" player="Koen" maxRunCount="1"/>
+      <step name="koenBidPlace" delegate="placeBid" player="Koen" maxRunCount="1"/>
+      <step name="hiddePolitics" delegate="politics" player="Hidde"/>
+      <step name="hiddeTech" delegate="tech" player="Hidde"/>
+      <step name="hiddePurchase" delegate="purchase" player="Hidde"/>
+      <step name="hiddeCombatMove" delegate="move" player="Hidde"/>
+      <step name="hiddeBattle" delegate="battle" player="Hidde"/>
+      <step name="hiddeNonCombatMove" delegate="move" player="Hidde" display="Non Combat Move"/>
+      <step name="hiddePlace" delegate="place" player="Hidde"/>
+      <step name="hiddeTechActivation" delegate="tech_activation" player="Hidde"/>
+      <step name="hiddeEndTurn" delegate="endTurn" player="Hidde"/>
+      <step name="jellePolitics" delegate="politics" player="Jelle"/>
+      <step name="jelleTech" delegate="tech" player="Jelle"/>
+      <step name="jellePurchase" delegate="purchase" player="Jelle"/>
+      <step name="jelleCombatMove" delegate="move" player="Jelle"/>
+      <step name="jelleBattle" delegate="battle" player="Jelle"/>
+      <step name="jelleNonCombatMove" delegate="move" player="Jelle" display="Non Combat Move"/>
+      <step name="jellePlace" delegate="place" player="Jelle"/>
+      <step name="jelleTechActivation" delegate="tech_activation" player="Jelle"/>
+      <step name="jelleEndTurn" delegate="endTurn" player="Jelle"/>
+      <step name="bramPolitics" delegate="politics" player="Bram"/>
+      <step name="bramTech" delegate="tech" player="Bram"/>
+      <step name="bramPurchase" delegate="purchase" player="Bram"/>
+      <step name="bramCombatMove" delegate="move" player="Bram"/>
+      <step name="bramBattle" delegate="battle" player="Bram"/>
+      <step name="bramNonCombatMove" delegate="move" player="Bram" display="Non Combat Move"/>
+      <step name="bramPlace" delegate="place" player="Bram"/>
+      <step name="bramTechActivation" delegate="tech_activation" player="Bram"/>
+      <step name="bramEndTurn" delegate="endTurn" player="Bram"/>
+      <step name="alexPolitics" delegate="politics" player="Alex"/>
+      <step name="alexTech" delegate="tech" player="Alex"/>
+      <step name="alexPurchase" delegate="purchase" player="Alex"/>
+      <step name="alexCombatMove" delegate="move" player="Alex"/>
+      <step name="alexBattle" delegate="battle" player="Alex"/>
+      <step name="alexNonCombatMove" delegate="move" player="Alex" display="Non Combat Move"/>
+      <step name="alexPlace" delegate="place" player="Alex"/>
+      <step name="alexTechActivation" delegate="tech_activation" player="Alex"/>
+      <step name="alexEndTurn" delegate="endTurn" player="Alex"/>
+      <step name="davidPolitics" delegate="politics" player="David"/>
+      <step name="davidTech" delegate="tech" player="David"/>
+      <step name="davidPurchase" delegate="purchase" player="David"/>
+      <step name="davidCombatMove" delegate="move" player="David"/>
+      <step name="davidBattle" delegate="battle" player="David"/>
+      <step name="davidNonCombatMove" delegate="move" player="David" display="Non Combat Move"/>
+      <step name="davidPlace" delegate="place" player="David"/>
+      <step name="davidTechActivation" delegate="tech_activation" player="David"/>
+      <step name="davidEndTurn" delegate="endTurn" player="David"/>
+      <step name="joellePolitics" delegate="politics" player="Joelle"/>
+      <step name="joelleTech" delegate="tech" player="Joelle"/>
+      <step name="joellePurchase" delegate="purchase" player="Joelle"/>
+      <step name="joelleCombatMove" delegate="move" player="Joelle"/>
+      <step name="joelleBattle" delegate="battle" player="Joelle"/>
+      <step name="joelleNonCombatMove" delegate="move" player="Joelle" display="Non Combat Move"/>
+      <step name="joellePlace" delegate="place" player="Joelle"/>
+      <step name="joelleTechActivation" delegate="tech_activation" player="Joelle"/>
+      <step name="joelleEndTurn" delegate="endTurn" player="Joelle"/>
+      <step name="koenPolitics" delegate="politics" player="Koen"/>
+      <step name="koenTech" delegate="tech" player="Koen"/>
+      <step name="koenPurchase" delegate="purchase" player="Koen"/>
+      <step name="koenCombatMove" delegate="move" player="Koen"/>
+      <step name="koenBattle" delegate="battle" player="Koen"/>
+      <step name="koenNonCombatMove" delegate="move" player="Koen" display="Non Combat Move"/>
+      <step name="koenPlace" delegate="place" player="Koen"/>
+      <step name="koenTechActivation" delegate="tech_activation" player="Koen"/>
+      <step name="koenEndTurn" delegate="endTurn" player="Koen"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyInfantry">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyMech_Infantry">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="mech_infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArtillery">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArmour">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFighter">
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTactical_Bomber">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="tactical_bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBomber">
+      <cost resource="PUs" quantity="13"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTransport">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrier">
+      <cost resource="PUs" quantity="17"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyer">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiser">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleship">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarine">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory_Minor">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="factory_minor" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory_Major">
+      <cost resource="PUs" quantity="30"/>
+      <result resourceOrUnit="factory_major" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory_Upgrade">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="factory_upgrade" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAirfield">
+      <cost resource="PUs" quantity="50"/>
+      <result resourceOrUnit="airfield" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyHarbour">
+      <cost resource="PUs" quantity="50"/>
+      <result resourceOrUnit="harbour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAAGun">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <!-- Advanced Industrial Production -->
+    <!--<productionRule name="buyInfantryIndustrialTechnology">
+                        <cost resource="PUs" quantity="3" />
+                        <result resourceOrUnit="infantry" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyMech_InfantryIndustrialTechnology">
+                        <cost resource="PUs" quantity="4" />
+                        <result resourceOrUnit="mech_infantry" quantity="1"/>
+                </productionRule>
+                
+				<productionRule name="buyArtilleryIndustrialTechnology">
+                        <cost resource="PUs" quantity="4" />
+                        <result resourceOrUnit="artillery" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyArmourIndustrialTechnology">
+                        <cost resource="PUs" quantity="6" />
+                        <result resourceOrUnit="armour" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyFighterIndustrialTechnology">
+                        <cost resource="PUs" quantity="10" />
+                        <result resourceOrUnit="fighter" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyTactical_BomberIndustrialTechnology">
+                        <cost resource="PUs" quantity="11" />
+                        <result resourceOrUnit="tactical_bomber" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyBomberIndustrialTechnology">
+                        <cost resource="PUs" quantity="12" />
+                        <result resourceOrUnit="bomber" quantity="1"/>
+                </productionRule>
+                
+				<productionRule name="buyTransportIndustrialTechnology">
+                        <cost resource="PUs" quantity="6" />
+                        <result resourceOrUnit="transport" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyCarrierIndustrialTechnology">
+                        <cost resource="PUs" quantity="13" />
+                        <result resourceOrUnit="carrier" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyDestroyerIndustrialTechnology">
+                        <cost resource="PUs" quantity="7" />
+                        <result resourceOrUnit="destroyer" quantity="1"/>
+                </productionRule>
+				
+				<productionRule name="buyCruiserIndustrialTechnology">
+                        <cost resource="PUs" quantity="10" />
+                        <result resourceOrUnit="destroyer" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyBattleshipIndustrialTechnology">
+                        <cost resource="PUs" quantity="17" />
+                        <result resourceOrUnit="battleship" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buySubmarineIndustrialTechnology">
+                        <cost resource="PUs" quantity="5" />
+                        <result resourceOrUnit="submarine" quantity="1"/>
+                </productionRule>
+                
+                
+				<productionRule name="buyFactory_MinorIndustrialTechnology">
+                        <cost resource="PUs" quantity="12" />
+                        <result resourceOrUnit="factory_minor" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyFactory_MajorIndustrialTechnology">
+                        <cost resource="PUs" quantity="30" />
+                        <result resourceOrUnit="factory_major" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyAirfieldIndustrialTechnology">
+                        <cost resource="PUs" quantity="40" />
+                        <result resourceOrUnit="airfield" quantity="1"/>
+                </productionRule>
+
+                <productionRule name="buyHarbourIndustrialTechnology">
+                        <cost resource="PUs" quantity="40" />
+                        <result resourceOrUnit="harbour" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyAAGunIndustrialTechnology">
+                        <cost resource="PUs" quantity="6" />
+                        <result resourceOrUnit="aaGun" quantity="1"/>
+                </productionRule>-->
+    <!-- SHIPYARD PRICES -->
+    <productionRule name="buyTransportShipyards">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrierShipyards">
+      <cost resource="PUs" quantity="13"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyerShipyards">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiserShipyards">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleshipShipyards">
+      <cost resource="PUs" quantity="17"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarineShipyards">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <!-- Repair rules -->
+    <repairRule name="repairFactory_Minor">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_minor" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairFactory_MinorIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_minor" quantity="2"/>
+    </repairRule>
+    <repairRule name="repairFactory_Major">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_major" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairFactory_MajorIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_major" quantity="2"/>
+    </repairRule>
+    <repairRule name="repairFactory_Upgrade">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_upgrade" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairFactory_UpgradeIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_upgrade" quantity="2"/>
+    </repairRule>
+    <repairRule name="repairAirfield">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="airfield" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairAirfieldIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="airfield" quantity="2"/>
+    </repairRule>
+    <repairRule name="repairHarbour">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="harbour" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairHarbourIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="harbour" quantity="2"/>
+    </repairRule>
+    <repairFrontier name="repair">
+      <repairRules name="repairFactory_Minor"/>
+      <repairRules name="repairFactory_Major"/>
+      <repairRules name="repairFactory_Upgrade"/>
+      <repairRules name="repairAirfield"/>
+      <repairRules name="repairHarbour"/>
+    </repairFrontier>
+    <repairFrontier name="repairIndustrialTechnology">
+      <repairRules name="repairFactory_MinorIndustrialTechnology"/>
+      <repairRules name="repairFactory_MajorIndustrialTechnology"/>
+      <repairRules name="repairFactory_UpgradeIndustrialTechnology"/>
+      <repairRules name="repairAirfieldIndustrialTechnology"/>
+      <repairRules name="repairHarbourIndustrialTechnology"/>
+    </repairFrontier>
+    <productionFrontier name="production">
+      <frontierRules name="buyInfantry"/>
+      <frontierRules name="buyMech_Infantry"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyArmour"/>
+      <frontierRules name="buyFighter"/>
+      <frontierRules name="buyTactical_Bomber"/>
+      <frontierRules name="buyBomber"/>
+      <frontierRules name="buyTransport"/>
+      <frontierRules name="buySubmarine"/>
+      <frontierRules name="buyCarrier"/>
+      <frontierRules name="buyDestroyer"/>
+      <frontierRules name="buyCruiser"/>
+      <frontierRules name="buyBattleship"/>
+      <frontierRules name="buyAAGun"/>
+      <frontierRules name="buyFactory_Minor"/>
+      <frontierRules name="buyFactory_Upgrade"/>
+      <frontierRules name="buyFactory_Major"/>
+      <frontierRules name="buyAirfield"/>
+      <frontierRules name="buyHarbour"/>
+    </productionFrontier>
+    <!--<productionFrontier name="productionIndustrialTechnology">
+                        <frontierRules name="buyInfantryIndustrialTechnology"/>
+                        <frontierRules name="buyMech_InfantryIndustrialTechnology"/>
+						<frontierRules name="buyArtilleryIndustrialTechnology"/>
+                        <frontierRules name="buyArmourIndustrialTechnology"/>
+                        <frontierRules name="buyFighterIndustrialTechnology"/>
+						<frontierRules name="buyTactical_BomberIndustrialTechnology"/>
+                        <frontierRules name="buyBomberIndustrialTechnology"/>
+                        <frontierRules name="buyTransportIndustrialTechnology"/>
+                        <frontierRules name="buySubmarineIndustrialTechnology"/>
+                        <frontierRules name="buyCarrierIndustrialTechnology"/>
+                        <frontierRules name="buyDestroyerIndustrialTechnology"/>
+						<frontierRules name="buyCruiserIndustrialTechnology"/>
+                        <frontierRules name="buyBattleshipIndustrialTechnology"/>
+                        <frontierRules name="buyAAGunIndustrialTechnology"/>
+						<frontierRules name="buyFactory_MinorIndustrialTechnology"/>
+						<frontierRules name="buyFactory_MajorIndustrialTechnology"/>
+                        <frontierRules name="buyAirfieldIndustrialTechnology"/>
+                        <frontierRules name="buyHarbourIndustrialTechnology"/>
+                </productionFrontier>-->
+    <productionFrontier name="productionShipyards">
+      <frontierRules name="buyTransportShipyards"/>
+      <frontierRules name="buySubmarineShipyards"/>
+      <frontierRules name="buyCarrierShipyards"/>
+      <frontierRules name="buyDestroyerShipyards"/>
+      <frontierRules name="buyCruiserShipyards"/>
+      <frontierRules name="buyBattleshipShipyards"/>
+    </productionFrontier>
+    <playerProduction player="David" frontier="production"/>
+    <playerProduction player="Bram" frontier="production"/>
+    <playerProduction player="Joelle" frontier="production"/>
+    <playerProduction player="Hidde" frontier="production"/>
+    <playerProduction player="Alex" frontier="production"/>
+    <playerProduction player="Jelle" frontier="production"/>
+    <playerProduction player="Koen" frontier="production"/>
+    <playerRepair player="David" frontier="repair"/>
+    <playerRepair player="Bram" frontier="repair"/>
+    <playerRepair player="Joelle" frontier="repair"/>
+    <playerRepair player="Hidde" frontier="repair"/>
+    <playerRepair player="Alex" frontier="repair"/>
+    <playerRepair player="Jelle" frontier="repair"/>
+    <playerRepair player="Koen" frontier="repair"/>
+  </production>
+  <attachmentList>
+    <attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+      <option name="archeType" value="war"/>
+    </attachment>
+    <attachment name="relationshipTypeAttachment" attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+      <option name="archeType" value="allied"/>
+    </attachment>
+    <attachment name="relationshipTypeAttachment" attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+      <option name="archeType" value="neutral"/>
+    </attachment>
+<!-- Players Tech -->
+    <attachment name="techAttachment" attachTo="Hidde" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Jelle" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Bram" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Alex" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="David" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Joelle" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+     <attachment name="techAttachment" attachTo="Koen" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- Unit Attachments -->
+    <!-- Infantry -->
+    <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="isInfantry" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isAirTransportable" value="true"/>
+      <option name="canBeCapturedOnEnteringBy" value="Joelle:David:Bram:Jelle:Hidde:Alex:Koen"/>
+    </attachment>
+    <!-- Mech Infantry -->
+    <attachment name="unitAttachment" attachTo="mech_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="receivesAbilityWhenWith" value="canBlitz:armour"/>
+    </attachment>
+    <!-- Artillery -->
+    <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="3"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="artillery" value="true"/>
+    </attachment>
+    <!-- Armour -->
+    <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="isLandTransport" value="true"/>
+    </attachment>
+    <!-- Fighter -->
+    <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="5"/>
+      <option name="unitPlacementRestrictions" value="Duivendrecht:Staatsliedenbuurt:Lutkemeer:Ouderkerk:Ijburg:Diemerpark:Holendrecht:Hakkelaarsbrug:Zwanenburger Wei:de Sniep:Vrijschot:Amstelpark:de Grachtengordel:Bedrijventerrein Sloterdijk:Beukenhorst:Bijlmer centrum:de Burgwallen:Bijlmermeer:Uithoorn:Amsterdamse Bos zuid:Over Diemen:Uitdam:Vliegenbos:Zuidas:Stokkelaarsbrug:Oosteinde:Oostzaan Zuidende:Grachten N:Zeeburgereiland:Waterlooplein:Sloten:Havenbuurt:Hoofddorp:Spaarnwoude:Spaarndammerbuurt:De Horn:Marken:Oosterparkbuurt:Oostelijke Eilanden:Broek in Waterland:Buikslotermeer:Haven noord noord:Landsmeer:Haarlem noord:Ronde Hoep oost:Naarder Wei:Gaasperpark:Scheepsbuurt:Muiden:de Bongerd:Elzenhagen:Westwijk:Buitenveldert:Bullewijk:Bellamybuurt:Diemen noord:Betondorp-Middenmeer:Keizer Karelpark:Aalsmeer centrum:Jordaan:Buiksloot:de Baarsjes:Nigtevecht:Landsmeerder Wei:Spieringhorn:Jeugdland:Petroleumhavens:Overtoomse Veld:Kabel:Vogelbuurt:Holysloot:Bovenkerk:Tuindorp Nieuwendam:Fredrik Hendrikbuurt:Haven Noord:Weesp:Rivierenbuurt:Oud Zuid:Badhoevedorp:Westhavens Zuid:Diemen zuid:Schellingwoude:Museumkwartier:Middelpolder:Kostverloren-Bankras:de Hoge Dijk:Zunderdorp:Osdorp:Middenhoven:Boeslingheliede:Afrikahaven:het Schouw:Haarlem centrum:de Pijp:Badhoever Wei:Naarden:ArenA Park:Diemen:Slotermeer:Helmersbuurt:Tuindorp Oostzaan:Abcoude:Centraal Station:Papaverweg e.o.:Almere:Overhoeks:Dapper-Indische buurt:Zuid:Aalsmeer west:Plantage:Vondelpark:Weesperbuurt:Oranjewijk:Amsterdamse bos noord:Amstelveen Stadshart:Watergraafsmeer:Amstelveen Oude Dorp:Bloemenbuurt:de Wallen:Bedrijventerrein de Omval:Java-Oostelijk Havengebied:Nieuwe Zijde:Waterland:Leek:Haarlem Zuid:Tellegenbuurt:Vijfhuizen:Oostzaner Werf:Nes aan de Amstel:Schaakwei:Nieuwendammerham:Geiner Wei:Muiderberg"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="canScramble" value="true"/>
+      <option name="maxScrambleDistance" value="1"/>
+      <option name="canIntercept" value="true"/>
+      <option name="canEscort" value="true"/>
+      <option name="airDefense" value="2"/>
+      <option name="airAttack" value="1"/>
+    </attachment>
+    <!-- Bomber -->
+    <attachment name="unitAttachment" attachTo="bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="7"/>
+      <option name="unitPlacementRestrictions" value="Duivendrecht:Staatsliedenbuurt:Lutkemeer:Ouderkerk:Ijburg:Diemerpark:Holendrecht:Hakkelaarsbrug:Zwanenburger Wei:de Sniep:Vrijschot:Amstelpark:de Grachtengordel:Bedrijventerrein Sloterdijk:Beukenhorst:Bijlmer centrum:de Burgwallen:Bijlmermeer:Uithoorn:Amsterdamse Bos zuid:Over Diemen:Uitdam:Vliegenbos:Zuidas:Stokkelaarsbrug:Oosteinde:Oostzaan Zuidende:Grachten N:Zeeburgereiland:Waterlooplein:Sloten:Havenbuurt:Hoofddorp:Spaarnwoude:Spaarndammerbuurt:De Horn:Marken:Oosterparkbuurt:Oostelijke Eilanden:Broek in Waterland:Buikslotermeer:Haven noord noord:Landsmeer:Haarlem noord:Ronde Hoep oost:Naarder Wei:Gaasperpark:Scheepsbuurt:Muiden:de Bongerd:Elzenhagen:Westwijk:Buitenveldert:Bullewijk:Bellamybuurt:Diemen noord:Betondorp-Middenmeer:Keizer Karelpark:Aalsmeer centrum:Jordaan:Buiksloot:de Baarsjes:Nigtevecht:Landsmeerder Wei:Spieringhorn:Jeugdland:Petroleumhavens:Overtoomse Veld:Kabel:Vogelbuurt:Holysloot:Bovenkerk:Tuindorp Nieuwendam:Fredrik Hendrikbuurt:Haven Noord:Weesp:Rivierenbuurt:Oud Zuid:Badhoevedorp:Westhavens Zuid:Diemen zuid:Schellingwoude:Museumkwartier:Middelpolder:Kostverloren-Bankras:de Hoge Dijk:Zunderdorp:Osdorp:Middenhoven:Boeslingheliede:Afrikahaven:het Schouw:Haarlem centrum:de Pijp:Badhoever Wei:Naarden:ArenA Park:Diemen:Slotermeer:Helmersbuurt:Tuindorp Oostzaan:Abcoude:Centraal Station:Papaverweg e.o.:Almere:Overhoeks:Dapper-Indische buurt:Zuid:Aalsmeer west:Plantage:Vondelpark:Weesperbuurt:Oranjewijk:Amsterdamse bos noord:Amstelveen Stadshart:Watergraafsmeer:Amstelveen Oude Dorp:Bloemenbuurt:de Wallen:Bedrijventerrein de Omval:Java-Oostelijk Havengebied:Nieuwe Zijde:Waterland:Leek:Haarlem Zuid:Tellegenbuurt:Vijfhuizen:Oostzaner Werf:Nes aan de Amstel:Schaakwei:Nieuwendammerham:Geiner Wei:Muiderberg"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="1"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="isAirTransport" value="true"/>
+      <option name="transportCapacity" value="2"/>
+      <!-- the following two properties only activate on LL for bombing -->
+      <option name="bombingMaxDieSides" value="2"/>
+      <option name="bombingBonus" value="2"/>
+    </attachment>
+    <!-- Tactical Bomber -->
+    <attachment name="unitAttachment" attachTo="tactical_bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="5"/>
+      <option name="unitPlacementRestrictions" value="Duivendrecht:Staatsliedenbuurt:Lutkemeer:Ouderkerk:Ijburg:Diemerpark:Holendrecht:Hakkelaarsbrug:Zwanenburger Wei:de Sniep:Vrijschot:Amstelpark:de Grachtengordel:Bedrijventerrein Sloterdijk:Beukenhorst:Bijlmer centrum:de Burgwallen:Bijlmermeer:Uithoorn:Amsterdamse Bos zuid:Over Diemen:Uitdam:Vliegenbos:Zuidas:Stokkelaarsbrug:Oosteinde:Oostzaan Zuidende:Grachten N:Zeeburgereiland:Waterlooplein:Sloten:Havenbuurt:Hoofddorp:Spaarnwoude:Spaarndammerbuurt:De Horn:Marken:Oosterparkbuurt:Oostelijke Eilanden:Broek in Waterland:Buikslotermeer:Haven noord noord:Landsmeer:Haarlem noord:Ronde Hoep oost:Naarder Wei:Gaasperpark:Scheepsbuurt:Muiden:de Bongerd:Elzenhagen:Westwijk:Buitenveldert:Bullewijk:Bellamybuurt:Diemen noord:Betondorp-Middenmeer:Keizer Karelpark:Aalsmeer centrum:Jordaan:Buiksloot:de Baarsjes:Nigtevecht:Landsmeerder Wei:Spieringhorn:Jeugdland:Petroleumhavens:Overtoomse Veld:Kabel:Vogelbuurt:Holysloot:Bovenkerk:Tuindorp Nieuwendam:Fredrik Hendrikbuurt:Haven Noord:Weesp:Rivierenbuurt:Oud Zuid:Badhoevedorp:Westhavens Zuid:Diemen zuid:Schellingwoude:Museumkwartier:Middelpolder:Kostverloren-Bankras:de Hoge Dijk:Zunderdorp:Osdorp:Middenhoven:Boeslingheliede:Afrikahaven:het Schouw:Haarlem centrum:de Pijp:Badhoever Wei:Naarden:ArenA Park:Diemen:Slotermeer:Helmersbuurt:Tuindorp Oostzaan:Abcoude:Centraal Station:Papaverweg e.o.:Almere:Overhoeks:Dapper-Indische buurt:Zuid:Aalsmeer west:Plantage:Vondelpark:Weesperbuurt:Oranjewijk:Amsterdamse bos noord:Amstelveen Stadshart:Watergraafsmeer:Amstelveen Oude Dorp:Bloemenbuurt:de Wallen:Bedrijventerrein de Omval:Java-Oostelijk Havengebied:Nieuwe Zijde:Waterland:Leek:Haarlem Zuid:Tellegenbuurt:Vijfhuizen:Oostzaner Werf:Nes aan de Amstel:Schaakwei:Nieuwendammerham:Geiner Wei:Muiderberg"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <!--<option name="isStrategicBomber" value="true"/>-->
+      <option name="canScramble" value="true"/>
+      <option name="maxScrambleDistance" value="1"/>
+    </attachment>
+    <!-- Transport -->
+    <attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attachment>
+    <!-- Battle Ship -->
+    <attachment name="unitAttachment" attachTo="battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBombard" value="true"/>
+      <option name="hitPoints" value="2"/>
+      <option name="blockade" value="1"/>
+    </attachment>
+    <!-- Cruiser -->
+    <attachment name="unitAttachment" attachTo="cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="true"/>
+      <option name="hitPoints" value="1"/>
+      <option name="blockade" value="1"/>
+    </attachment>
+    <!-- Destroyer -->
+    <attachment name="unitAttachment" attachTo="destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isDestroyer" value="true"/>
+      <option name="blockade" value="1"/>
+    </attachment>
+    <!-- Carrier -->
+    <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="2"/>
+      <option name="carrierCapacity" value="2"/>
+      <option name="hitPoints" value="2"/>
+      <option name="blockade" value="1"/>
+      <!-- whenCombatDamaged means that when this unit has x:y damage on it, it will have this effect -->
+      <option name="whenCombatDamaged" value="unitsMayNotLandOnCarrier" count="1:2"/>
+      <option name="whenCombatDamaged" value="unitsMayNotLeaveAlliedCarrier" count="1:2"/>
+    </attachment>
+    <!-- Submarine -->
+    <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="isSub" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="blockade" value="2"/>
+      <!-- stuff for targeting unescorted transports (we are using the new-fangled aa-gun code)-->
+      <option name="isAAforFlyOverOnly" value="true"/>
+      <option name="targetsAA" value="transport"/>
+      <option name="willNotFireIfPresent" value="destroyer:cruiser:battleship:carrier"/>
+      <option name="mayOverStackAA" value="true"/>
+      <option name="maxAAattacks" value="1"/>
+      <option name="attackAA" value="2"/>
+      <option name="attackAAmaxDieSides" value="6"/>
+      <option name="typeAA" value="Submarine Strike on Unescorted Transports"/>
+    </attachment>
+    <!-- Factory Minor -->
+    <attachment name="unitAttachment" attachTo="factory_minor" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      <!-- costs 20 ipcs to upgrade to a major -->
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="2"/>
+      <option name="isAAforBombingThisUnitOnly" value="true"/>
+      <option name="canProduceXUnits" value="3"/>
+      <option name="maxDamage" value="6"/>
+    </attachment>
+    <!-- Factory Major -->
+    <attachment name="unitAttachment" attachTo="factory_major" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
+      <option name="isAAforBombingThisUnitOnly" value="true"/>
+      <option name="canProduceXUnits" value="10"/>
+      <option name="maxDamage" value="20"/>
+      <option name="whenCapturedChangesInto" value="any:any:true:factory_minor:1"/>
+      <!--<option name="special" value="canOnlyPlaceInOriginalTerritories"/>-->
+    </attachment>
+    <!-- Factory Upgrade -->
+    <attachment name="unitAttachment" attachTo="factory_upgrade" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
+      <option name="isAAforBombingThisUnitOnly" value="true"/>
+      <option name="canProduceXUnits" value="10"/>
+      <option name="maxDamage" value="20"/>
+      <option name="consumesUnits" value="1:factory_minor"/>
+      <option name="whenCapturedChangesInto" value="any:any:true:factory_minor:1"/>
+      <!--<option name="special" value="canOnlyPlaceInOriginalTerritories"/>-->
+    </attachment>
+    <!-- Airfield -->
+    <attachment name="unitAttachment" attachTo="airfield" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isInfrastructure" value="true"/>
+      <option name="canBeDamaged" value="true"/>
+      <option name="maxDamage" value="6"/>
+      <option name="maxOperationalDamage" value="2"/>
+      <option name="isAirBase" value="true"/>
+      <option name="isConstruction" value="true"/>
+      <option name="constructionType" value="airfield_structure"/>
+      <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+      <option name="maxConstructionsPerTypePerTerr" value="1"/>
+      <option name="movement" value="0"/>
+      <option name="unitPlacementRestrictions" value="Duivendrecht:Staatsliedenbuurt:Lutkemeer:Ouderkerk:Ijburg:Diemerpark:Holendrecht:Hakkelaarsbrug:Zwanenburger Wei:de Sniep:Vrijschot:Amstelpark:de Grachtengordel:Bedrijventerrein Sloterdijk:Beukenhorst:Bijlmer centrum:de Burgwallen:Bijlmermeer:Uithoorn:Amsterdamse Bos zuid:Over Diemen:Uitdam:Vliegenbos:Zuidas:Stokkelaarsbrug:Oosteinde:Oostzaan Zuidende:Grachten N:Zeeburgereiland:Waterlooplein:Sloten:Havenbuurt:Hoofddorp:Spaarnwoude:Spaarndammerbuurt:De Horn:Marken:Oosterparkbuurt:Oostelijke Eilanden:Broek in Waterland:Buikslotermeer:Haven noord noord:Landsmeer:Haarlem noord:Ronde Hoep oost:Naarder Wei:Gaasperpark:Scheepsbuurt:Muiden:de Bongerd:Elzenhagen:Westwijk:Buitenveldert:Bullewijk:Bellamybuurt:Diemen noord:Betondorp-Middenmeer:Keizer Karelpark:Aalsmeer centrum:Jordaan:Buiksloot:de Baarsjes:Nigtevecht:Landsmeerder Wei:Spieringhorn:Jeugdland:Petroleumhavens:Overtoomse Veld:Kabel:Vogelbuurt:Holysloot:Bovenkerk:Tuindorp Nieuwendam:Fredrik Hendrikbuurt:Haven Noord:Weesp:Rivierenbuurt:Oud Zuid:Badhoevedorp:Westhavens Zuid:Diemen zuid:Schellingwoude:Museumkwartier:Middelpolder:Kostverloren-Bankras:de Hoge Dijk:Zunderdorp:Osdorp:Middenhoven:Boeslingheliede:Afrikahaven:het Schouw:Haarlem centrum:de Pijp:Badhoever Wei:Naarden:ArenA Park:Diemen:Slotermeer:Helmersbuurt:Tuindorp Oostzaan:Abcoude:Centraal Station:Papaverweg e.o.:Almere:Overhoeks:Dapper-Indische buurt:Zuid:Aalsmeer west:Plantage:Vondelpark:Weesperbuurt:Oranjewijk:Amsterdamse bos noord:Amstelveen Stadshart:Watergraafsmeer:Amstelveen Oude Dorp:Bloemenbuurt:de Wallen:Bedrijventerrein de Omval:Java-Oostelijk Havengebied:Nieuwe Zijde:Waterland:Leek:Haarlem Zuid:Tellegenbuurt:Vijfhuizen:Oostzaner Werf:Nes aan de Amstel:Schaakwei:Nieuwendammerham:Geiner Wei:Muiderberg"/>
+      <option name="givesMovement" value="1:fighter"/>
+      <option name="givesMovement" value="1:bomber"/>
+      <option name="givesMovement" value="1:tactical_bomber"/>
+      <option name="isAAforBombingThisUnitOnly" value="true"/>
+    </attachment>
+    <!-- Harbour -->
+    <attachment name="unitAttachment" attachTo="harbour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isInfrastructure" value="true"/>
+      <option name="canBeDamaged" value="true"/>
+      <option name="maxDamage" value="6"/>
+      <option name="maxOperationalDamage" value="2"/>
+      <option name="repairsUnits" value="battleship:carrier"/>
+      <option name="isConstruction" value="true"/>
+      <option name="constructionType" value="harbour_structure"/>
+      <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+      <option name="maxConstructionsPerTypePerTerr" value="1"/>
+      <option name="movement" value="0"/>
+      <option name="unitPlacementRestrictions" value="Duivendrecht:Staatsliedenbuurt:Schiphol zuid:Slotermeer:Lutkemeer:Baan 36 en 06:Ronde Hoep west:Ouderkerk:Ijburg:Diemerpark:Holendrecht:Hakkelaarsbrug:Zwanenburger Wei:de Sniep:Vrijschot:Lustoord:Amstelpark:de Grachtengordel:Beukenhorst:Bijlmer centrum:de Burgwallen:Bijlmermeer:Uithoorn:Amsterdamse Bos zuid:Over Diemen:Baan 36 C:Vliegenbos:Zuidas:Stokkelaarsbrug:Oosteinde:Oostzaan Zuidende:Grachten N:Baan 27:Zeeburgereiland:Waterlooplein:Sloten:Havenbuurt:Hoofddorp:Spaarnwoude:Spaarndammerbuurt:De Horn:Marken:Oosterparkbuurt:Oostelijke Eilanden:Broek in Waterland:Buikslotermeer:Haven noord noord:Landsmeer:Haarlem noord:Ronde Hoep oost:Naarder Wei:Gaasperpark:Scheepsbuurt:Natuurreservaat Naardermeer:de Bongerd:Elzenhagen:Westwijk:Buitenveldert:Bullewijk:Bellamybuurt:Diemen noord:Betondorp-Middenmeer:Keizer Karelpark:Durgerdam:Jordaan:Buiksloot:de Baarsjes:Nigtevecht:Landsmeerder Wei:Spieringhorn:Jeugdland:Zuiderwolde:Flevoland:Overtoomse Veld:Kabel:Vogelbuurt:Holysloot:Bovenkerk:Tuindorp Nieuwendam:Fredrik Hendrikbuurt:Polderbaan:Weesp:Rivierenbuurt:Oud Zuid:Badhoevedorp:Diemen zuid:Schellingwoude:Museumkwartier:Middelpolder:de Liede:Kostverloren-Bankras:de Hoge Dijk:Zunderdorp:Osdorp:Middenhoven:Boeslingheliede:het Schouw:Haarlem centrum:de Pijp:Badhoever Wei:Naarden:ArenA Park:Diemen:Helmersbuurt:Tuindorp Oostzaan:Abcoude:Centraal Station:Papaverweg e.o.:Overhoeks:Dapper-Indische buurt:Schiphol Terminal:Zuid:Aalsmeer west:Plantage:Vondelpark:Weesperbuurt:Baan 04:Oranjewijk:Amsterdamse bos noord:Amstelveen Stadshart:Watergraafsmeer:Amstelveen Oude Dorp:Bloemenbuurt:de Wallen:Zwanenburg:Bedrijventerrein de Omval:Nieuwe Zijde:Waterland:Leek:Haarlem Zuid:Tellegenbuurt:Vijfhuizen:Oostzaner Werf:Nes aan de Amstel:Schaakwei:Nieuwendammerham:Geiner Wei:Muiderberg"/>
+      <option name="givesMovement" value="1:transport"/>
+      <option name="givesMovement" value="1:submarine"/>
+      <option name="givesMovement" value="1:destroyer"/>
+      <option name="givesMovement" value="1:cruiser"/>
+      <option name="givesMovement" value="1:carrier"/>
+      <option name="givesMovement" value="1:battleship"/>
+      <option name="isAAforBombingThisUnitOnly" value="true"/>
+    </attachment>
+    <!-- AA Gun -->
+    <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isAAforCombatOnly" value="true"/>
+      <option name="isRocket" value="true"/>
+      <option name="canNotMoveDuringCombatMove" value="true"/>
+      <option name="isInfrastructure" value="true"/>
+      <option name="canBeDamaged" value="false"/>
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="3"/>
+    </attachment>
+    <!-- Territory Attachments -->
+    <!-- E40 -->
+    <attachment name="territoryAttachment" attachTo="Haarlem centrum" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="9"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="Koen"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Haarlem Zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Haarlem noord" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Liede" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Spaarnwoude" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ronde Hoep west" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ronde Hoep oost" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ouderkerk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="5"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Lustoord" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="ArenA Park" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="unitProduction" value="6"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bijlmer centrum" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bedrijventerrein de Omval" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Watergraafsmeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="unitProduction" value="7"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oosterparkbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Weesperbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Dapper-Indische buurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Pijp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zwanenburger Wei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Abcoude" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="20"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="Bram"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Stokkelaarsbrug" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Hoge Dijk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bullewijk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Geiner Wei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Nigtevecht" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="De Horn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Natuurreservaat Naardermeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hakkelaarsbrug" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Naarder Wei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Naarden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Almere" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+      <option name="unitProduction" value="8"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Flevoland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Marken" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="unitProduction" value="8"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Muiderberg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="5"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Diemen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="Alex"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Diemen zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Diemen noord" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Duivendrecht" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Sniep" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bijlmermeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Gaasperpark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Diemerpark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Ijburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Over Diemen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Muiden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Hoofddorp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="unitProduction" value="8"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Vrijschot" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Beukenhorst" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kabel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Polderbaan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Baan 36 C" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Weesp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="5"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Betondorp-Middenmeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Boeslingheliede" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Holendrecht" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Vijfhuizen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Amstelveen Oude Dorp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="Hidde"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Amstelveen Stadshart" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Keizer Karelpark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Middenhoven" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bovenkerk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Middelpolder" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Kostverloren-Bankras" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Westwijk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Uitdam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Amsterdamse Bos zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Amsterdamse bos noord" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oosteinde" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oranjewijk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Schiphol zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Aalsmeer centrum" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Aalsmeer west" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Baan 36 en 06" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Baan 04" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Baan 27" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Nes aan de Amstel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Uithoorn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Schiphol Terminal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="unitProduction" value="6"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Rivierenbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="Joelle"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tellegenbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Vondelpark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zuidas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Buitenveldert" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Amstelpark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Museumkwartier" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="unitProduction" value="5"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Helmersbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bellamybuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Baarsjes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oud Zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Overtoomse Veld" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Sloten" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Badhoevedorp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Badhoever Wei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Lutkemeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Osdorp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Slotermeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oostelijke Eilanden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="Jelle"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Centraal Station" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Nieuwe Zijde" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Wallen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Burgwallen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Waterlooplein" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Grachtengordel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Grachten N" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Fredrik Hendrikbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Jordaan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Staatsliedenbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Spaarndammerbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Westhavens Zuid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Petroleumhavens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bedrijventerrein Sloterdijk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Afrikahaven" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Spieringhorn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zwanenburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Havenbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Haven noord noord" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Overhoeks" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Vogelbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Bloemenbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Papaverweg e.o." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Haven Noord" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Schellingwoude" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Vliegenbos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Nieuwendammerham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tuindorp Nieuwendam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Buikslotermeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Jeugdland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Elzenhagen" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Scheepsbuurt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Buiksloot" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oostzaner Werf" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Tuindorp Oostzaan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zuiderwolde" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Oostzaan Zuidende" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Landsmeer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="4"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Landsmeerder Wei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zunderdorp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Waterland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Durgerdam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Holysloot" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="het Schouw" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Leek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Schaakwei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Java-Oostelijk Havengebied" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Plantage" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="6"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="de Bongerd" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Zeeburgereiland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="Broek in Waterland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="unitProduction" value="15"/>
+      <option name="capital" value="David"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+    <!-- Blockade Zones -->
+    <attachment name="territoryAttachment" attachTo="1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="7" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="23" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="24" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="25" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <attachment name="territoryAttachment" attachTo="27" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="blockadeZone" value="true"/>
+    </attachment>
+    <!-- Support Attachments -->
+    <attachment name="supportAttachmentFighter" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="tactical_bomber"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="1"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="combined_arms"/>
+      <option name="impArtTech" value="false"/>
+      <option name="players" value="Hidde:Jelle:David:Bram:Joelle:Alex:Koen"/>
+    </attachment>
+    <attachment name="supportAttachmentFighter" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+      <option name="unitType" value="tactical_bomber"/>
+      <option name="faction" value="allied"/>
+      <option name="side" value="offence"/>
+      <option name="dice" value="strength"/>
+      <option name="bonus" value="1"/>
+      <option name="number" value="1"/>
+      <option name="bonusType" value="combined_arms"/>
+      <option name="impArtTech" value="false"/>
+      <option name="players" value="Hidde:Jelle:David:Bram:Joelle:Alex:Koen"/>
+    </attachment>
+    <!--  National Objectives (A number of NOs are in the Conditions section below) -->
+    <!-- Hidde Objectives -->
+    <!-- David Objectives -->
+    <!-- Alex Objectives -->
+    <!-- Bram Objectives -->
+    <!-- David Objectives -->
+    <!-- Jelle Objectives -->
+    <!-- Joelle Objectives -->   
+ <!-- Condition Attachments -->
+    <!-- Victory Conditions -->
+    <!-- Hidde's boys Victory -->
+    <attachment name="conditionAttachment_Hidde's boys_Victory1" attachTo="Hidde" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- Jelle's boys Victory -->
+    <attachment name="conditionAttachment_Jelle's boys_Victory1" attachTo="Jelle" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- Bram's boys Victory -->
+    <attachment name="conditionAttachment_Bram's boys_Victory1" attachTo="Bram" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- Alex's boys Victory -->
+    <attachment name="conditionAttachment_Alex's boys_Victory1" attachTo="Alex" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- David's boys Victory -->
+    <attachment name="conditionAttachment_David's boys_Victory1" attachTo="David" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- Joelle's boys Victory -->
+    <attachment name="conditionAttachment_Joelle's boys_Victory1" attachTo="Joelle" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- Koen's boys Victory -->
+    <attachment name="conditionAttachment_Koen's boys_Victory1" attachTo="Koen" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Amstelveen Oude Dorp:Rivierenbuurt:Abcoude:Diemen:Watergraafsmeer:Broek in Waterland:Oostelijke Eilanden" count="3"/>
+    </attachment>
+    <!-- Hidde Conditions -->
+    <!-- David Conditions -->
+    <!-- Alex Conditions -->
+    <!-- Bram Conditions -->
+    <!-- David Conditions -->
+    <!-- Jelle Conditions -->
+    <!-- Joelle Conditions -->   
+    <!-- Political Related Conditions -->
+    <!-- Trigger Attachments -->
+    <!-- Victory Triggers -->
+    <attachment name="triggerAttachment_Hidde's boys_Victory1" attachTo="Hidde" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_Hidde's boys_Victory1"/>
+      <option name="victory" value="Hidde's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="Hidde"/>
+    </attachment>
+    <attachment name="triggerAttachment_Bram's boys_Victory1" attachTo="Bram" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_Bram's boys_Victory1"/>
+      <option name="victory" value="Bram's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="Bram"/>
+    </attachment>
+    <attachment name="triggerAttachment_Jelle's boys_Victory1" attachTo="Jelle" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_Jelle's boys_Victory1"/>
+      <option name="victory" value="Jelle's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="Jelle"/>
+    </attachment>
+    <attachment name="triggerAttachment_David's boys_Victory1" attachTo="David" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_David's boys_Victory1"/>
+      <option name="victory" value="David's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="David"/>
+    </attachment>
+    <attachment name="triggerAttachment_Hidde's boys_Victory1" attachTo="Hidde" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_Hidde's boys_Victory1"/>
+      <option name="victory" value="Hidde's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="Hidde"/>
+    </attachment>
+    <attachment name="triggerAttachment_Joelle's boys_Victory1" attachTo="Joelle" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_Joelle's boys_Victory1"/>
+      <option name="victory" value="Joelle's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="Joelle"/>
+    </attachment>
+    <attachment name="triggerAttachment_Koen's boys_Victory1" attachTo="Koen" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachment_Koen's boys_Victory1"/>
+      <option name="victory" value="Koen's boys achieve victory by controlling 3 capitals!"/>
+      <option name="players" value="Koen"/>
+    </attachment>
+    <!-- Hidde Triggers -->
+    <!-- Jelle Triggers -->
+    <!-- Bram Triggers -->
+    <!-- Alex Triggers -->
+    <!-- David Triggers -->
+    <!-- Joelle Triggers -->
+    <!-- Koen Triggers -->
+    <!-- Political Related Triggers -->
+    <!-- Player Attachments -->
+    <!-- Political Action Attachments -->
+  </attachmentList>
+  <initialize>
+    <ownerInitialize>
+      <!-- E40 -->
+      <territoryOwner territory="Haarlem centrum" owner="Koen"/>
+      <territoryOwner territory="Haarlem Zuid" owner="Koen"/>
+      <territoryOwner territory="de Liede" owner="Koen"/>
+      <territoryOwner territory="Spaarnwoude" owner="Koen"/>
+      <territoryOwner territory="Ronde Hoep west" owner="Koen"/>
+      <territoryOwner territory="Ronde Hoep oost" owner="Koen"/>
+      <territoryOwner territory="Ouderkerk" owner="Koen"/>
+      <territoryOwner territory="Lustoord" owner="Koen"/>
+      <territoryOwner territory="ArenA Park" owner="Koen"/>
+      <territoryOwner territory="Bijlmer centrum" owner="Koen"/>
+      <territoryOwner territory="Bedrijventerrein de Omval" owner="Koen"/>
+      <territoryOwner territory="Watergraafsmeer" owner="Koen"/>
+      <territoryOwner territory="Oosterparkbuurt" owner="Koen"/>
+      <territoryOwner territory="Weesperbuurt" owner="Koen"/>
+      <territoryOwner territory="Dapper-Indische buurt" owner="Koen"/>
+      <territoryOwner territory="de Pijp" owner="Joelle"/>
+      <territoryOwner territory="Haarlem noord" owner="Koen"/>
+      <territoryOwner territory="Zwanenburger Wei" owner="Koen"/>
+      <territoryOwner territory="Abcoude" owner="Bram"/>
+      <territoryOwner territory="Stokkelaarsbrug" owner="Bram"/>
+      <territoryOwner territory="de Hoge Dijk" owner="Bram"/>
+      <territoryOwner territory="Bullewijk" owner="Bram"/>
+      <territoryOwner territory="Geiner Wei" owner="Bram"/>
+      <territoryOwner territory="Nigtevecht" owner="Bram"/>
+      <territoryOwner territory="De Horn" owner="Bram"/>
+      <territoryOwner territory="Natuurreservaat Naardermeer" owner="Bram"/>
+      <territoryOwner territory="Hakkelaarsbrug" owner="Bram"/>
+      <territoryOwner territory="Naarder Wei" owner="Bram"/>
+      <territoryOwner territory="Naarden" owner="Bram"/>
+      <territoryOwner territory="Almere" owner="Bram"/>
+      <territoryOwner territory="Flevoland" owner="Bram"/>
+      <territoryOwner territory="Marken" owner="Bram"/>
+      <territoryOwner territory="Muiderberg" owner="Bram"/>
+      <territoryOwner territory="Diemen" owner="Alex"/>
+      <territoryOwner territory="Diemen zuid" owner="Alex"/>
+      <territoryOwner territory="Diemen noord" owner="Alex"/>
+      <territoryOwner territory="Duivendrecht" owner="Alex"/>
+      <territoryOwner territory="de Sniep" owner="Alex"/>
+      <territoryOwner territory="Bijlmermeer" owner="Alex"/>
+      <territoryOwner territory="Gaasperpark" owner="Alex"/>
+      <territoryOwner territory="Diemerpark" owner="Alex"/>
+      <territoryOwner territory="Ijburg" owner="Alex"/>
+      <territoryOwner territory="Over Diemen" owner="Alex"/>
+      <territoryOwner territory="Muiden" owner="Alex"/>
+      <territoryOwner territory="Hoofddorp" owner="Alex"/>
+      <territoryOwner territory="Vrijschot" owner="Alex"/>
+      <territoryOwner territory="Beukenhorst" owner="Alex"/>
+      <territoryOwner territory="Kabel" owner="Alex"/>
+      <territoryOwner territory="Polderbaan" owner="Alex"/>
+      <territoryOwner territory="Baan 36 C" owner="Alex"/>
+      <territoryOwner territory="Weesp" owner="Alex"/>
+      <territoryOwner territory="Betondorp-Middenmeer" owner="Alex"/>
+      <territoryOwner territory="Boeslingheliede" owner="Alex"/>
+      <territoryOwner territory="Holendrecht" owner="Alex"/>
+      <territoryOwner territory="Vijfhuizen" owner="Alex"/>
+      <territoryOwner territory="Amstelveen Oude Dorp" owner="Hidde"/>
+      <territoryOwner territory="Amstelveen Stadshart" owner="Hidde"/>
+      <territoryOwner territory="Keizer Karelpark" owner="Hidde"/>
+      <territoryOwner territory="Middenhoven" owner="Hidde"/>
+      <territoryOwner territory="Bovenkerk" owner="Hidde"/>
+      <territoryOwner territory="Middelpolder" owner="Hidde"/>
+      <territoryOwner territory="Kostverloren-Bankras" owner="Hidde"/>
+      <territoryOwner territory="Westwijk" owner="Hidde"/>
+      <territoryOwner territory="Amsterdamse Bos zuid" owner="Hidde"/>
+      <territoryOwner territory="Amsterdamse bos noord" owner="Joelle"/>
+      <territoryOwner territory="Oosteinde" owner="Hidde"/>
+      <territoryOwner territory="Oranjewijk" owner="Hidde"/>
+      <territoryOwner territory="Aalsmeer centrum" owner="Hidde"/>
+      <territoryOwner territory="Aalsmeer west" owner="Hidde"/>
+      <territoryOwner territory="Schiphol zuid" owner="Hidde"/>
+      <territoryOwner territory="Baan 36 en 06" owner="Hidde"/>
+      <territoryOwner territory="Baan 04" owner="Hidde"/>
+      <territoryOwner territory="Baan 27" owner="Joelle"/>
+      <territoryOwner territory="Nes aan de Amstel" owner="Hidde"/>
+      <territoryOwner territory="Uithoorn" owner="Hidde"/>
+      <territoryOwner territory="Schiphol Terminal" owner="Hidde"/>
+      <territoryOwner territory="Rivierenbuurt" owner="Joelle"/>
+      <territoryOwner territory="Tellegenbuurt" owner="Joelle"/>
+      <territoryOwner territory="Zuid" owner="Joelle"/>
+      <territoryOwner territory="Vondelpark" owner="Joelle"/>
+      <territoryOwner territory="Zuidas" owner="Joelle"/>
+      <territoryOwner territory="Buitenveldert" owner="Joelle"/>
+      <territoryOwner territory="Amstelpark" owner="Joelle"/>
+      <territoryOwner territory="Museumkwartier" owner="Joelle"/>
+      <territoryOwner territory="Bellamybuurt" owner="Joelle"/>
+      <territoryOwner territory="de Baarsjes" owner="Joelle"/>
+      <territoryOwner territory="Oud Zuid" owner="Joelle"/>
+      <territoryOwner territory="Overtoomse Veld" owner="Joelle"/>
+      <territoryOwner territory="Sloten" owner="Joelle"/>
+      <territoryOwner territory="Badhoevedorp" owner="Joelle"/>
+      <territoryOwner territory="Helmersbuurt" owner="Joelle"/>
+      <territoryOwner territory="Badhoever Wei" owner="Joelle"/>
+      <territoryOwner territory="Osdorp" owner="Joelle"/>
+      <territoryOwner territory="Slotermeer" owner="Joelle"/>
+      <territoryOwner territory="Oostelijke Eilanden" owner="Jelle"/>
+      <territoryOwner territory="Centraal Station" owner="Jelle"/>
+      <territoryOwner territory="Nieuwe Zijde" owner="Jelle"/>
+      <territoryOwner territory="de Wallen" owner="Jelle"/>
+      <territoryOwner territory="de Burgwallen" owner="Jelle"/>
+      <territoryOwner territory="Waterlooplein" owner="Jelle"/>
+      <territoryOwner territory="de Grachtengordel" owner="Jelle"/>
+      <territoryOwner territory="Grachten N" owner="Jelle"/>
+      <territoryOwner territory="Fredrik Hendrikbuurt" owner="Jelle"/>
+      <territoryOwner territory="Jordaan" owner="Jelle"/>
+      <territoryOwner territory="Staatsliedenbuurt" owner="Jelle"/>
+      <territoryOwner territory="Spaarndammerbuurt" owner="Jelle"/>
+      <territoryOwner territory="Westhavens Zuid" owner="Jelle"/>
+      <territoryOwner territory="Petroleumhavens" owner="Jelle"/>
+      <territoryOwner territory="Bedrijventerrein Sloterdijk" owner="Jelle"/>
+      <territoryOwner territory="Spieringhorn" owner="Jelle"/>
+      <territoryOwner territory="Zwanenburg" owner="Jelle"/>
+      <territoryOwner territory="Afrikahaven" owner="Jelle"/>
+      <territoryOwner territory="Havenbuurt" owner="Jelle"/>
+      <territoryOwner territory="Haven noord noord" owner="Jelle"/>
+      <territoryOwner territory="Overhoeks" owner="Jelle"/>
+      <territoryOwner territory="Vogelbuurt" owner="Jelle"/>
+      <territoryOwner territory="Bloemenbuurt" owner="Jelle"/>
+      <territoryOwner territory="Papaverweg e.o." owner="Jelle"/>
+      <territoryOwner territory="Haven Noord" owner="Jelle"/>
+      <territoryOwner territory="Schellingwoude" owner="David"/>
+      <territoryOwner territory="Vliegenbos" owner="David"/>      
+      <territoryOwner territory="Nieuwendammerham" owner="David"/>
+      <territoryOwner territory="Tuindorp Nieuwendam" owner="David"/>
+      <territoryOwner territory="Buikslotermeer" owner="David"/>
+      <territoryOwner territory="Jeugdland" owner="David"/>
+      <territoryOwner territory="Elzenhagen" owner="David"/>
+      <territoryOwner territory="Scheepsbuurt" owner="David"/>
+      <territoryOwner territory="Buiksloot" owner="David"/>
+      <territoryOwner territory="Oostzaner Werf" owner="David"/>
+      <territoryOwner territory="Tuindorp Oostzaan" owner="David"/>
+      <territoryOwner territory="Oostzaan Zuidende" owner="David"/>
+      <territoryOwner territory="Landsmeer" owner="David"/>
+      <territoryOwner territory="Landsmeerder Wei" owner="David"/>
+      <territoryOwner territory="Zunderdorp" owner="David"/>
+      <territoryOwner territory="Waterland" owner="David"/>
+      <territoryOwner territory="Durgerdam" owner="David"/>
+      <territoryOwner territory="Holysloot" owner="David"/>
+      <territoryOwner territory="het Schouw" owner="David"/>
+      <territoryOwner territory="Leek" owner="David"/>
+      <territoryOwner territory="Schaakwei" owner="David"/>
+      <territoryOwner territory="Zuiderwolde" owner="David"/>
+      <territoryOwner territory="Uitdam" owner="David"/>
+      <territoryOwner territory="Broek in Waterland" owner="David"/>
+      <territoryOwner territory="Java-Oostelijk Havengebied" owner="Koen"/>
+      <territoryOwner territory="Plantage" owner="Koen"/>
+      <territoryOwner territory="de Bongerd" owner="David"/>
+      <territoryOwner territory="Zeeburgereiland" owner="David"/>
+      <territoryOwner territory="Lutkemeer" owner="Joelle"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <!-- Players -->
+      <!-- David -->
+      <unitPlacement unitType="mech_infantry" territory="Schellingwoude" quantity="2" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Vliegenbos" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Nieuwendammerham" quantity="2" owner="David"/>
+      <unitPlacement unitType="artillery" territory="Nieuwendammerham" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Tuindorp Nieuwendam" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Buikslotermeer" quantity="3" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Jeugdland" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Elzenhagen" quantity="3" owner="David"/>
+      <unitPlacement unitType="artillery" territory="Elzenhagen" quantity="1" owner="David"/>
+      <unitPlacement unitType="mech_infantry" territory="Scheepsbuurt" quantity="1" owner="David"/>
+      <unitPlacement unitType="factory_minor" territory="Scheepsbuurt" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Buiksloot" quantity="2" owner="David"/>
+      <unitPlacement unitType="artillery" territory="Buiksloot" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Tuindorp Oostzaan" quantity="2" owner="David"/>
+      <unitPlacement unitType="artillery" territory="Tuindorp Oostzaan" quantity="2" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Oostzaan Zuidende" quantity="2" owner="David"/>
+      <unitPlacement unitType="armour" territory="Landsmeer" quantity="2" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Landsmeerder Wei" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Waterland" quantity="2" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Durgerdam" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Holysloot" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Leek" quantity="2" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Zuiderwolde" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Uitdam" quantity="2" owner="David"/>
+      <unitPlacement unitType="artillery" territory="Uitdam" quantity="1" owner="David"/>
+      <unitPlacement unitType="factory_major" territory="Broek in Waterland" quantity="1" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Broek in Waterland" quantity="4" owner="David"/>
+      <unitPlacement unitType="artillery" territory="Broek in Waterland" quantity="4" owner="David"/>
+      <unitPlacement unitType="armour" territory="de Bongerd" quantity="2" owner="David"/>
+      <unitPlacement unitType="mech_infantry" territory="de Bongerd" quantity="2" owner="David"/>
+      <unitPlacement unitType="infantry" territory="Zeeburgereiland" quantity="2" owner="David"/>
+      <unitPlacement unitType="battleship" territory="23" quantity="1" owner="David"/>
+      <unitPlacement unitType="cruiser" territory="23" quantity="1" owner="David"/>
+      <unitPlacement unitType="destroyer" territory="23" quantity="3" owner="David"/>
+      <unitPlacement unitType="transport" territory="23" quantity="4" owner="David"/>
+      <!-- Bram -->
+      <unitPlacement unitType="infantry" territory="Abcoude" quantity="6" owner="Bram"/>
+      <unitPlacement unitType="mech_infantry" territory="Abcoude" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="artillery" territory="Abcoude" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="armour" territory="Abcoude" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="factory_major" territory="Abcoude" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Stokkelaarsbrug" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="artillery" territory="de Hoge Dijk" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="de Hoge Dijk" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="factory_minor" territory="Bullewijk" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Bullewijk" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Geiner Wei" quantity="4" owner="Bram"/>
+      <unitPlacement unitType="armour" territory="Geiner Wei" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="mech_infantry" territory="Geiner Wei" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Nigtevecht" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="De Horn" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="artillery" territory="De Horn" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="armour" territory="De Horn" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Natuurreservaat Naardermeer" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="artillery" territory="Natuurreservaat Naardermeer" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Hakkelaarsbrug" quantity="4" owner="Bram"/>
+      <unitPlacement unitType="artillery" territory="Hakkelaarsbrug" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Naarder Wei" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Naarden" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Almere" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="factory_major" territory="Almere" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="harbour" territory="Almere" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="infantry" territory="Marken" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="artillery" territory="Marken" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="mech_infantry" territory="Marken" quantity="3" owner="Bram"/>
+      <unitPlacement unitType="factory_major" territory="Marken" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="mech_infantry" territory="Muiderberg" quantity="4" owner="Bram"/>
+      <unitPlacement unitType="factory_minor" territory="Muiderberg" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="battleship" territory="1" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="cruiser" territory="1" quantity="1" owner="Bram"/>
+      <unitPlacement unitType="transport" territory="1" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="destroyer" territory="1" quantity="2" owner="Bram"/>
+      <unitPlacement unitType="submarine" territory="5" quantity="1" owner="Bram"/>
+      <!-- Joelle -->
+      <unitPlacement unitType="infantry" territory="Rivierenbuurt" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="mech_infantry" territory="Rivierenbuurt" quantity="4" owner="Joelle"/>
+      <unitPlacement unitType="factory_major" territory="Rivierenbuurt" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Rivierenbuurt" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="armour" territory="Rivierenbuurt" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Tellegenbuurt" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Zuid" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Vondelpark" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Zuidas" quantity="4" owner="Joelle"/>
+      <unitPlacement unitType="mech_infantry" territory="Zuidas" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="factory_minor" territory="Zuidas" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Buitenveldert" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Buitenveldert" quantity="4" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Amstelpark" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Museumkwartier" quantity="5" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Museumkwartier" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Helmersbuurt" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Helmersbuurt" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Bellamybuurt" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="de Baarsjes" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="de Baarsjes" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="mech_infantry" territory="Oud Zuid" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Overtoomse Veld" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Sloten" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Badhoevedorp" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="mech_infantry" territory="Badhoevedorp" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="armour" territory="Badhoevedorp" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="factory_minor" territory="Badhoevedorp" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Badhoever Wei" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Badhoever Wei" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Osdorp" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Slotermeer" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="mech_infantry" territory="Slotermeer" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Lutkemeer" quantity="4" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Lutkemeer" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Slotermeer" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Amsterdamse bos noord" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="Baan 27" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="Baan 27" quantity="3" owner="Joelle"/>
+      <unitPlacement unitType="airfield" territory="Baan 27" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="fighter" territory="Baan 27" quantity="1" owner="Joelle"/>
+      <unitPlacement unitType="infantry" territory="de Pijp" quantity="2" owner="Joelle"/>
+      <unitPlacement unitType="artillery" territory="de Pijp" quantity="2" owner="Joelle"/>
+      <!-- Hidde -->
+      <unitPlacement unitType="infantry" territory="Amstelveen Oude Dorp" quantity="5" owner="Hidde"/>
+      <unitPlacement unitType="artillery" territory="Amstelveen Oude Dorp" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="factory_major" territory="Amstelveen Oude Dorp" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Amstelveen Stadshart" quantity="3" owner="Hidde"/>
+      <unitPlacement unitType="artillery" territory="Amstelveen Stadshart" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Keizer Karelpark" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Middenhoven" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="artillery" territory="Bovenkerk" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Bovenkerk" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Middelpolder" quantity="4" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Kostverloren-Bankras" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="mech_infantry" territory="Westwijk" quantity="3" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Amsterdamse Bos zuid" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Oosteinde" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Aalsmeer centrum" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="mech_infantry" territory="Aalsmeer centrum" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="armour" territory="Aalsmeer centrum" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Aalsmeer west" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Schiphol zuid" quantity="5" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Baan 36 en 06" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="airfield" territory="Baan 36 en 06" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Baan 04" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="artillery" territory="Baan 04" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="airfield" territory="Baan 04" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Schiphol Terminal" quantity="4" owner="Hidde"/>
+      <unitPlacement unitType="artillery" territory="Schiphol Terminal" quantity="2" owner="Hidde"/>
+      <unitPlacement unitType="armour" territory="Schiphol Terminal" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="fighter" territory="Schiphol Terminal" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="airfield" territory="Schiphol Terminal" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="factory_major" territory="Schiphol Terminal" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="factory_minor" territory="Schiphol zuid" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Nes aan de Amstel" quantity="1" owner="Hidde"/>
+      <unitPlacement unitType="infantry" territory="Uithoorn" quantity="3" owner="Hidde"/>
+      <!-- Alex -->
+      <unitPlacement unitType="infantry" territory="Diemen" quantity="5" owner="Alex"/>
+      <unitPlacement unitType="mech_infantry" territory="Diemen" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Diemen" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="factory_major" territory="Diemen" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Diemen zuid" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Diemen noord" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Duivendrecht" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Duivendrecht" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="mech_infantry" territory="de Sniep" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="armour" territory="de Sniep" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Bijlmermeer" quantity="4" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Bijlmermeer" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Gaasperpark" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Diemerpark" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Ijburg" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Over Diemen" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Over Diemen" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="mech_infantry" territory="Over Diemen" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="armour" territory="Over Diemen" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Muiden" quantity="5" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Muiden" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="factory_minor" territory="Muiden" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="harbour" territory="Muiden" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="mech_infantry" territory="Hoofddorp" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="factory_major" territory="Hoofddorp" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Vrijschot" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="mech_infantry" territory="Vrijschot" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Beukenhorst" quantity="6" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Kabel" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Polderbaan" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="airfield" territory="Polderbaan" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Baan 36 C" quantity="4" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Baan 36 C" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="mech_infantry" territory="Baan 36 C" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="fighter" territory="Baan 36 C" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="airfield" territory="Baan 36 C" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="armour" territory="Baan 36 C" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Weesp" quantity="4" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Weesp" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Betondorp-Middenmeer" quantity="4" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Betondorp-Middenmeer" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Boeslingheliede" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Boeslingheliede" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Holendrecht" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="infantry" territory="Vijfhuizen" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="artillery" territory="Vijfhuizen" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="battleship" territory="7" quantity="1" owner="Alex"/>
+      <unitPlacement unitType="destroyer" territory="7" quantity="2" owner="Alex"/>
+      <unitPlacement unitType="submarine" territory="7" quantity="3" owner="Alex"/>
+      <unitPlacement unitType="transport" territory="7" quantity="2" owner="Alex"/>
+      <!-- Jelle -->
+      <unitPlacement unitType="infantry" territory="Oostelijke Eilanden" quantity="8" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Oostelijke Eilanden" quantity="5" owner="Jelle"/>
+      <unitPlacement unitType="armour" territory="Oostelijke Eilanden" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="factory_major" territory="Oostelijke Eilanden" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Centraal Station" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Centraal Station" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Nieuwe Zijde" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="mech_infantry" territory="de Burgwallen" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="mech_infantry" territory="de Wallen" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="de Wallen" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Waterlooplein" quantity="6" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Waterlooplein" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="de Grachtengordel" quantity="4" owner="Jelle"/>
+      <unitPlacement unitType="armour" territory="de Grachtengordel" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Grachten N" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Grachten N" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Fredrik Hendrikbuurt" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Fredrik Hendrikbuurt" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Jordaan" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Jordaan" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="factory_minor" territory="Jordaan" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Staatsliedenbuurt" quantity="4" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Staatsliedenbuurt" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="mech_infantry" territory="Spaarndammerbuurt" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="armour" territory="Spaarndammerbuurt" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Westhavens Zuid" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Petroleumhavens" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="harbour" territory="Petroleumhavens" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="factory_minor" territory="Petroleumhavens" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Bedrijventerrein Sloterdijk" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Bedrijventerrein Sloterdijk" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Spieringhorn" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Zwanenburg" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Afrikahaven" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Haven noord noord" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Overhoeks" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Overhoeks" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Vogelbuurt" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Bloemenbuurt" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Papaverweg e.o." quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="infantry" territory="Haven Noord" quantity="4" owner="Jelle"/>
+      <unitPlacement unitType="artillery" territory="Haven Noord" quantity="3" owner="Jelle"/>
+      <unitPlacement unitType="factory_minor" territory="Haven Noord" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="harbour" territory="Haven Noord" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="battleship" territory="25" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="destroyer" territory="25" quantity="2" owner="Jelle"/>
+      <unitPlacement unitType="transport" territory="25" quantity="4" owner="Jelle"/>
+      <unitPlacement unitType="cruiser" territory="26" quantity="1" owner="Jelle"/>
+      <unitPlacement unitType="destroyer" territory="26" quantity="2" owner="Jelle"/>
+ <!-- Koen -->
+      <unitPlacement unitType="infantry" territory="Haarlem centrum" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Haarlem centrum" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="factory_major" territory="Haarlem centrum" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Haarlem Zuid" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Haarlem Zuid" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="mech_infantry" territory="Haarlem noord" quantity="4" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Java-Oostelijk Havengebied" quantity="5" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Java-Oostelijk Havengebied" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="de Liede" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="armour" territory="de Liede" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="de Liede" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Spaarnwoude" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Spaarnwoude" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Ronde Hoep oost" quantity="4" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Ronde Hoep oost" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="armour" territory="Ronde Hoep oost" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="armour" territory="Ouderkerk" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Ouderkerk" quantity="4" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Ouderkerk" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Plantage" quantity="5" owner="Koen"/>
+      <unitPlacement unitType="mech_infantry" territory="Ouderkerk" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Lustoord" quantity="6" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Lustoord" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="ArenA Park" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="factory_minor" territory="ArenA Park" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Bijlmer centrum" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Bijlmer centrum" quantity="4" owner="Koen"/>
+      <unitPlacement unitType="mech_infantry" territory="Bedrijventerrein de Omval" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="armour" territory="Bijlmer centrum" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Bedrijventerrein de Omval" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Watergraafsmeer" quantity="10" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Watergraafsmeer" quantity="4" owner="Koen"/>
+      <unitPlacement unitType="mech_infantry" territory="Watergraafsmeer" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="factory_major" territory="Watergraafsmeer" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Oosterparkbuurt" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="mech_infantry" territory="Oosterparkbuurt" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Oosterparkbuurt" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="armour" territory="Oosterparkbuurt" quantity="1" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Weesperbuurt" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Dapper-Indische buurt" quantity="3" owner="Koen"/>
+      <unitPlacement unitType="artillery" territory="Dapper-Indische buurt" quantity="2" owner="Koen"/>
+      <unitPlacement unitType="infantry" territory="Zwanenburger Wei" quantity="2" owner="Koen"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="David" resource="PUs" quantity="30"/>
+      <resourceGiven player="Bram" resource="PUs" quantity="35"/>
+      <resourceGiven player="Joelle" resource="PUs" quantity="35"/>
+      <resourceGiven player="Hidde" resource="PUs" quantity="35"/>
+      <resourceGiven player="Alex" resource="PUs" quantity="35"/>
+      <resourceGiven player="Jelle" resource="PUs" quantity="35"/>
+      <resourceGiven player="Koen" resource="PUs" quantity="47"/>
+    </resourceInitialize>
+    <relationshipInitialize>
+      <!-- the order of player1 and player2 does not matter. roundValue is only used for conditions and can be positive or negative (use "1" if you don't know what you are doing).
+								having them listed twice in different orders will just have the later one overwrite the earlier one.
+								Make sure you cover all possibilities! (the number of possibilities is equal to the triangular number sequence: 1,3,6,10,15,21,28,36,45,55,66,78,91,105,120)
+						-->
+      <relationship type="War" player1="Hidde" player2="Bram" roundValue="1"/>
+      <relationship type="War" player1="Hidde" player2="Joelle" roundValue="1"/>
+      <relationship type="War" player1="Hidde" player2="Jelle" roundValue="1"/>
+      <relationship type="War" player1="Hidde" player2="Alex" roundValue="1"/>
+      <relationship type="War" player1="Hidde" player2="Koen" roundValue="1"/>
+      <relationship type="War" player1="Hidde" player2="David" roundValue="1"/>
+      <relationship type="War" player1="Jelle" player2="Bram" roundValue="1"/>
+      <relationship type="War" player1="Jelle" player2="Joelle" roundValue="1"/>
+      <relationship type="War" player1="Jelle" player2="David" roundValue="1"/>
+      <relationship type="War" player1="Jelle" player2="Koen" roundValue="1"/>
+      <relationship type="War" player1="Jelle" player2="Alex" roundValue="1"/>
+      <relationship type="War" player1="Alex" player2="David" roundValue="1"/>
+      <relationship type="War" player1="Alex" player2="Joelle" roundValue="1"/>
+      <relationship type="War" player1="Alex" player2="Bram" roundValue="1"/>
+      <relationship type="War" player1="Alex" player2="Koen" roundValue="1"/>
+      <relationship type="War" player1="Koen" player2="Bram" roundValue="1"/>
+      <relationship type="War" player1="Koen" player2="David" roundValue="1"/>
+      <relationship type="War" player1="Koen" player2="Joelle" roundValue="1"/>
+      <relationship type="War" player1="Bram" player2="David" roundValue="1"/>
+      <relationship type="War" player1="Bram" player2="Joelle" roundValue="1"/>
+      <relationship type="War" player1="David" player2="Joelle" roundValue="1"/>
+    </relationshipInitialize>
+  </initialize>
+  <propertyList>
+    <!-- PLEASE KEEP YOUR PROPERTIES IN THIS ORDER!!! -->
+    <!-- TYPICAL OPTIONAL PROPERTIES -->
+    <!-- Bidding -->
+    <property name="David bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Bram bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Joelle bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Hidde bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Alex bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Jelle bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Koen bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <!-- victory options -->
+    <property name="Triggered Victory" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Honorable Surrender" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Hidde's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <property name="Bram's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <property name="Jelle's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <property name="Joelle's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <property name="David's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <property name="Koen's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <property name="Alex's Boys Honorable Victory VCs" value="3" editable="true">
+      <number min="3" max="7"/>
+    </property>
+    <!-- End of Victory Conditions, rest of typical changed properties below -->
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for AntiAircraft" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Technology" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Bombing and Territory Damage" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Use Politics" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="National Objectives" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Use Triggers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Super Sub Defence Bonus" value="0" editable="true">
+      <number min="0" max="1"/>
+    </property>
+    <property name="LHTR Heavy Bombers" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="false">
+      <number min="2" max="3"/>
+    </property>
+    <property name="Paratroopers Can Move During Non Combat" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Paratroopers Can Attack Deep Into Enemy Territory" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Always on AA" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Airplanes" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Use Kamikaze Suicide Attacks" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Suicide Attacks Done By Current Territory Owner" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits End Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits Start Turn" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two HitPoint Units Require Repair Facilities" value="true" editable="true">
+      <boolean/>
+    </property>
+    <!-- Display Options -->
+    <property name="Multiply PUs" value="1" editable="false">
+      <number min="1" max="10"/>
+    </property>
+    <property name="Display Units as Counters" value="0" editable="false">
+      <number min="0" max="10"/>
+    </property>
+    <property name="Display Sea Names" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Selectable Zero Movement Units" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- END OF TYPICAL OPTIONAL PROPERTIES -->
+    <!-- rules and tech -->
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3 Tech Model" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Selectable Tech Roll" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Shipyards" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Scramble Rules In Effect" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Scrambled Units Return To Base" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Scramble To Sea Only" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Scramble From Island Only" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Scramble To Any Amphibious Assault" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="All Rockets Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rocket Attack Per Factory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- These require an associated value in the attachments section above-->
+    <property name="Movement By Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Production Per X Territories Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Production Per Valued Territory Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Per Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Place in Any Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unplaced units live when not placed" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Occupied Territories" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Give Units By Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Capture Units On Entering Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="On Entering Units Destroyed Instead Of Captured" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- specific rules -->
+    <!-- land related -->
+    <property name="Units Can Be Destroyed Instead Of Captured" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Can Be Changed On Capture" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="More Constructions with Factory" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="More Constructions without Factory" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unlimited Constructions" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Force AA Attacks For Last Step Of Fly Over" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Multiple AA Per Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Suicide and Munition Casualties Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Suicide and Munition Units Do Not Fire" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units May Give Bonus Movement" value="true" editable="true">
+      <boolean/>
+    </property>
+    <!-- sea related -->
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Attacker Retreat Planes" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Naval Bombard Casualties Return Fire" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Hari-Kari Units" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Allied Air Dependents" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Restricted Unload" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unescorted Transport Dies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Control Sea Zone" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Control Sea Zone Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Naval Units May Not NonCombat Move Into Controlled Sea Zones" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Previous Units Fight" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- production related -->
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="LHTR Carrier production rules" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Territory Turn Limit" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Limit SBR Damage Per Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Limit Rocket Damage Per Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="2" editable="false">
+      <number min="1" max="100"/>
+    </property>
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Restrictions" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Raids May Be Preceeded By Air Battles" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Limit SBR Damage To Factory Production" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Neutrals related -->
+    <property name="neutralCharge" value="0" editable="false">
+      <number min="0" max="9999999"/>
+    </property>
+    <property name="Neutrals Are Impassable" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Blitzable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutral Flyover Allowed" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="mapName" value="adam_met_de_bois" editable="false"/>
+    <property name="notes">
+      <value><![CDATA[  
+<div style="padding:10px;font-size:14px;background-color:white;text-align:justify;">
+<b>Amsterdam
+</b><br>
+<br>
+<b>Credits:</b> Hidde2k<br>
+<b>Unmissable assistace:</b> redrum, Cernel<br>
+<b>Original XML creators:</b> Bung, Veqryn<br><br>
+
+<b>Version</b><br>
+This is version: v.5.1.B <br>
+The updates in this version are: <br><br>
+-----v.5.1.B----- <br>
+-Capital of Koen moved from watergraafsmeer to Haarlem centrum. <br>
+-Changed productionvalue Haarlem centrum to 9. <br>
+-Changed productionvalue Watergraafsmeer to 8. <br>
+-----v.5.0----- <br>
+BRAM <br>
+-buffed in Geiner Wei by 2 armour <br>
+-buffed in Muiderberg by 1 infantry <br>
+-buffed in De Horn by 1 armour, 2 artillery and 2 infantry <br>
+-buffed in Almere with a major factory <br>
+-buffed in Marken with a major factory <br>
+KOEN <br>
+-buffed Koen by giving him Java-Oostelijke Havenbuurt and de Plantage with their units <br>
+-buffed Koen in Oosterparkbuurt by 2 mech_inf <br>
+-buffed Koen in Haarlem zuid by 1 artillery <br>
+-buffed Koen in Haarlem centrum with a major factory <br>
+-buffed Koen in Dapper-Indische Buurt by 1 artillery <br>
+-nerfed by losing de Pijp and it's units to Joelle <br>
+JELLE <br>
+-buffed Jelle in Waterlooplein by 2 artillery <br>
+-buffed Jelle in Haven Noord by 1 artillery <br>
+-buffed Jelle in Bedrijventerrein Sloterdijk with a minor factory <br>
+-buffed Jelle in Jordaan with a minor factory <br>
+ALEX <br>
+-nerfed Alex in Diemen zuid by 3 infantry <br>
+-nerfed Alex in Holendrecht by 2 infantry <br>
+-nerfed Alex in Gaasperpark by 2 infantry <br>
+-nerfed Ijburg by bringing production down to 2 <br>
+-buffed Alex in de Sniep by 1 armour <br>
+-buffed Alex in Hoofddorp with a major factory <br>
+JOELLE <br>
+-buffed Joelle by giving her de Pijp and it's units minus 1 infantry and 1 artillery <br>
+-buffed Joelle in Badhoever Wei by 3 artillery <br>
+-buffed Joelle in Baan 27 by 1 infantry and 1 artillery <br>
+-nerfed Joelle in Badhoevedorp by 2 mech_infantry <br>
+HIDDE <br>
+-nerfed Hidde in Baan 04 by 1 fighter <br>
+-nerfed Hidde in Aalsmeer centrum with a minor factory <br>
+-buffed Hidde in Schiphol Terminal with a major factory <br>
+David <br>
+-nerfed by losing Java-Oostelijke Havenbuurt and de Plantage with their units to Koen <br>
+-----v.5.1----- <br>
+-added minor factory to Petroleumhavens for Jelle for him to be able to pruduce ships <br>
+-removed the factory minor in Bedrijventerrein Sloterdijk for compensation <br>
+-made Petroleumhavens 2 PU's worth to make the factory possible <br>
+-upped all Schiphol runways in value from 1 PU to 2 PU's to allow the construction of factories to build planes <br>
+-opend up Zuiderwolde, Lustoord and Zwanenburg to airfield construction <br>
+-upped the PU value to 2 on Natuurgebied Naardermeer, Lustoord and Bullewijk to allow factory construction and to balance the game <br>
+-clarity on the construction of airfields, airplanes, harbours and factories<br><br>
+
+<b>Note</b><br>
+This game uses vanilla rules, also knowns as OOB (out of the box). <br><br>
+
+<b>Disclaimer</b><br>
+This map is made by a noob (its a first time map) the XML was stolen from Bung and Veqryn and adjusted untill it was right. <br>
+You can inform me of mistakes on the trippleA forum under the "Adam met de Bois" post. <br><br>
+
+<b>Rights Map</b><br>
+Everybody is allowed to use any part of this map. Have fun.<br><br>
+
+<b>Scenario</b><br>
+Amsterdam is te klein voor deze groep bois.<br>
+Een 7-zijdige oorlog breekt uit.<br>
+Diegene die thuiswijken van andere bois weet te veroveren is de erkende koning.<br>
+<br><br>
+
+<b>NB: Special rules</b><br>
+Airplane and airbase construction is mostly restricted to Schiphol airport to give extra importance to the region. <br>
+The only places were airbase and airplane construction are possible are: <br>
+-Baan 04 <br>
+-Baan 27 <br>
+-Baan 36 C <br>
+-Baan 36 en 06 <br>
+-Schiphol Terminal <br>
+-Schiphol zuid <br>
+-Zuiderwolde <br>
+-Natuurgebied Naardermeer <br>
+-Flevoland <br>
+-Lustoord <br>
+-Zwanenburg <br>
+Harbours are restricted to the existing ones exept Zuiderwolde where an additional one can be constructed. <br>
+Keep in mind that factory construction is always limited to territories with a value higher than 1. <br>
+Both harbours and airfields cost 50 PU's to construct. This keeps the existing ones valueable. <br>
+Note that the construction of airplanes requires both a factory and an airfield to be present in the tile. <br>
+The same holds true for ships and harbours. <br>
+<br><hr><br>
+
+<b>Victory Conditions</b><br>
+Own 3 capitals (your own included).<br><br>
+</div>
+						
+						]]></value>
+    </property>
+  </propertyList>
+</game>
