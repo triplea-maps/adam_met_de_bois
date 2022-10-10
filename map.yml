@@ -1,0 +1,5 @@
+map_name: adam_met_de_bois
+games:
+- game_name: Adam met de Bois
+  file_name: adam_met_de_bois.xml
+version: 0
